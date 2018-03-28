@@ -1,3 +1,4 @@
+<!-- <view>
 <swiper class='top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -5,3 +6,5 @@
     </swiper-item>
   </block>
 </swiper>
+</view> -->
+<web-view src="https://edu-test.dingtax.cn"></web-view>
