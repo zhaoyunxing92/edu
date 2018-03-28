@@ -2,24 +2,7 @@
 //获取应用实例
 const app = getApp()
 Page({
-  onShareAppMessage: function (res) {
-    if (res.from === 'button') {
-      // 来自页面内转发按钮
-      console.log(res.target)
-    }
-    return {
-      title: '税小课',
-      path: '/pages/logs/logs',
-      success: function (res) {
-        // 转发成功
-        console.log("dsfd:",res)
-      },
-      fail: function (res) {
-        // 转发失败
-        console.log(res)
-      }
-    }
-  },
+  
   data: {
     iconType:'',
     topData: [ 
@@ -59,6 +42,8 @@ Page({
     })
   },
   onLoad: function () {
+    this.i = this.selectComponent("#icons");
+    this.dialog = this.selectComponent("#dialog");
     //首页显示分享
     wx.showShareMenu({
       withShareTicket: false
@@ -103,4 +88,5 @@ Page({
       hasUserInfo: true
     })
   }
+
 })

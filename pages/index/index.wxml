@@ -6,7 +6,11 @@
   </block>
 </swiper> 
 <view class='container'>
+  
    <text class='card-title'><text class='vui-icon icon-recommend'/>优质课程</text>
+   <icons id="icons" type='icon-recommend'  style="width: 24rpx;height: 27rpx;"/>
    <text class='more'>更多<text class='vui-icon icon-more'></text></text>
  </view>
+
+
 
