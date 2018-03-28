@@ -2,7 +2,24 @@
 //获取应用实例
 const app = getApp()
 Page({
-  
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '税小课',
+      path: '/pages/logs/logs',
+      success: function (res) {
+        // 转发成功
+        console.log("dsfd:",res)
+      },
+      fail: function (res) {
+        // 转发失败
+        console.log(res)
+      }
+    }
+  },
   data: {
     imgUrls: [
       'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
@@ -20,7 +37,15 @@ Page({
     })
   },
   onLoad: function () {
-   
+    //首页显示分享
+    wx.showShareMenu({
+      withShareTicket: false
+    })
+    // 显示动态数字
+    wx.setTabBarBadge({
+      index: 2,
+      text: '9+'
+    })
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
