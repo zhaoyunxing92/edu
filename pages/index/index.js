@@ -21,15 +21,16 @@ Page({
     }
   },
   data: {
-    topData: [
+    topData: [ 
       {
-        "cover":"https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
-        "id":10005
+        "id": 10006,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "url": "http://v.dingtax.cn/6a5d121b4b464ca3a9e427ff0d2efee3/7e83bbc5fd454579bedb91e9a0b56f70-S00000001-200000.mp4"
       },
       {
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "id": 10006
-      }
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/id9D1h3ge1GWP5jninRwAURM.jpg",
+        "id": 10005
+      },
     ],
     userInfo: {},
     hasUserInfo: false,
