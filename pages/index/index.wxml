@@ -1,4 +1,7 @@
-<!--index.wxml-->
-<view class="container">
- 
-</view>
+<swiper class='top-card' indicator-dots="{{indicatorDots}}" autoplay interval="3000" duration="500">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
