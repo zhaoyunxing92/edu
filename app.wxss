@@ -1,6 +1,6 @@
 /**头部卡片**/
 .top-card{
   width: 100%;
-  height: 150px;
+  height: 180px;
   border-bottom: 1rpx solid #eeeeee;
 }

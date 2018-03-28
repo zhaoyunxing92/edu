@@ -6,7 +6,7 @@
     "pages/course/course"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#b4e131",
+    "navigationBarBackgroundColor": "#333",
     "navigationBarTextStyle": "#fff",
     "navigationBarTitleText": "税小课",
     "backgroundColor": "#eeeeee",
