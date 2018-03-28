@@ -1,4 +1,4 @@
-<swiper class='top-card' indicator-dots="{{indicatorDots}}" autoplay interval="3000" duration="500">
+<swiper class='top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
       <image src="{{item}}" class="slide-image"/>
