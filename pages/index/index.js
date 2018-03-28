@@ -38,8 +38,8 @@ Page({
       withShareTicket: false
     })
     wx.setTabBarBadge({
-      index: 0,
-      text: '1'
+      index: 2,
+      text: '9+'
     })
     if (app.globalData.userInfo) {
       this.setData({

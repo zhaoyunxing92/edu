@@ -1,7 +1,9 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/me/me",
+    "pages/dynamic/dynamic",
+    "pages/course/course"
   ],
   "window": {
     "navigationBarBackgroundColor": "#b4e131",
@@ -12,35 +14,38 @@
     "enablePullDownRefresh": false
   },
   "tabBar": {
-   "borderStyle":"white",
-   "position":"bottom",
-   "selectedColor":"#b4e131",
-   "color":"#707070",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "发现",
-      "iconPath": "imges/discovery.png",
-      "color": "#707070",
-      "selectedIconPath": "imges/discovery-select.png",
-      "selectedColor": "#b4e131",
-      "backgroundTextStyle": "dark"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "讲堂",
-      "iconPath": "imges/course.png",
-      "selectedIconPath": "imges/course-select.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "动态",
-      "iconPath": "imges/dynamic.png",
-      "selectedIconPath": "imges/dynamic-select.png"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "text": "我的",
-      "iconPath": "imges/me.png",
-      "selectedIconPath": "imges/me-select.png"
-    }]
+    
+    "position": "bottom",
+    "selectedColor": "#b4e131",
+    "color": "#707070",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "imges/discovery.png",
+        "color": "#707070",
+        "selectedIconPath": "imges/discovery-select.png",
+        "selectedColor": "#b4e131",
+        "backgroundTextStyle": "dark"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "讲堂",
+        "iconPath": "imges/course.png",
+        "selectedIconPath": "imges/course-select.png"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "动态",
+        "iconPath": "imges/dynamic.png",
+        "selectedIconPath": "imges/dynamic-select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "imges/me.png",
+        "selectedIconPath": "imges/me-select.png"
+      }
+    ]
   }
 }
