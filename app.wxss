@@ -63,6 +63,7 @@ page {
   margin: 30rpx 30rpx;
   padding: 10rpx;
   background-color: #fff;
+  border-radius: 10rpx;
 }
 .card-title{
   color: #333;
