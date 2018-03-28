@@ -21,6 +21,7 @@ Page({
     }
   },
   data: {
+    iconType:'',
     topData: [ 
       {
         "id": 10001,

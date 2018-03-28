@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"]{
+.vui-icon{
   
   font-family: 'icomoon' !important;
   font-style: normal;

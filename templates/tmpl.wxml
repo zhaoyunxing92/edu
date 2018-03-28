@@ -1,0 +1,3 @@
+<template name="icon">
+ <text class='vui-icon'>{{type}}</text>
+</template>

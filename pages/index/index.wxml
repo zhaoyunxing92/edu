@@ -1,13 +1,12 @@
-
 <swiper class='top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{topData}}" wx:for-item="item" wx:key="{{item.id}}">
     <swiper-item>
       <image  src="{{item.cover}}" class="slide-image"/>
     </swiper-item>
   </block>
-</swiper>
+</swiper> 
 <view class='container'>
-   <text class='card-title'><text class='icon-recommend'/>优质课程</text>
-   <text class='more'>更多<text class='icon-more'></text></text>
+   <text class='card-title'><text class='vui-icon icon-recommend'/>优质课程</text>
+   <text class='more'>更多<text class='vui-icon icon-more'></text></text>
  </view>
 
