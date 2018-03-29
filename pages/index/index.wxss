@@ -3,11 +3,92 @@
 .index-top-card{
   width: 100%;
   height: 380rpx;
-  border-bottom: 1rpx solid #eeeeee;
-  margin-bottom: 30rpx;
 }
+
+
 /*首页轮播图宽高*/
 .index-slide-image{
   width: 100%;
-  height: 100%
+  height: 100%;
+}
+/*课程列表 卡片 */
+.course-card{
+ margin-top: 30rpx;
+ background-color: #fff;
+ padding: 15rpx;
+}
+/*课程列表  */
+.course-list{
+  margin: 15rpx 10rpx;
+  display: block;
+}
+.course-item{
+   display: block;
+   border-bottom: solid 1rpx #f5f5f5;
+   height: 240rpx;
+   width: 100%;
+}
+.course-item:last-child{
+  border: none;
+}
+.course-item-cover,.course-item-info{
+height: 200rpx;
+margin:20rpx 0; 
+}
+/*课程封面  */
+.course-item-cover{
+float: left;
+width: 45%;
+border-radius: 10rpx;
+}
+/*课程信息  */
+.course-item-info{
+width: 52%;
+float: right;
+height: 200rpx;
+}
+
+/*课程标题 */
+.course-title{
+  float: left;
+  font-size: 28rpx;
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.course-stat{
+  font-size: 25rpx;
+  color: #ccc;
+  width: 100%;
+  display: inline-block;
+}
+.course-stat-item{
+  display: inline-block;
+  width: 33%;
+}
+
+
+/*组织  */
+.course-org,.course-stat,.course-title{
+   height: 33%;
+}
+
+/*组织名称  */
+.course-org-name{
+   color: #707070;
+   font-size: 30rpx;
+   margin-left: 10rpx;
+}
+/*组织logo  */
+.course-org-cover{
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 30rpx;
+  float: left;
+}
+
+.has-price{
+  color: red;
 }

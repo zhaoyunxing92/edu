@@ -36,6 +36,85 @@ App({
     })
   },
   globalData: {
-    Info: null
+    Info: null,
+    nominateList: [
+      {
+        "id": 1001,
+        "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
+        "browse": 1050,
+        "collect": 5080,
+        "like": 87,
+        "price": 0,
+        "tyep": 2,
+        "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
+        "author": {
+          "id": "user_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFY8RWnfd7t9MmSMeYw2s5k.png",
+          "name": "sunny"
+        },
+        "org": {
+          "id": "org_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "name": "德清地税"
+        }
+      }, {
+        "id": 1002,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "browse": 3650,
+        "collect": 410,
+        "like": 157,
+        "price": 85.7,
+        "tyep": 2,
+        "name": "企业所得税汇算清缴培训",
+        "author": {
+          "id": "user_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFY8RWnfd7t9MmSMeYw2s5k.png",
+          "name": "sunny"
+        },
+        "org": {
+          "id": "org_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "name": "新昌地税"
+        }
+      }, {
+        "id": 1003,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "browse": 3650,
+        "collect": 410,
+        "like": 157,
+        "price": 0,
+        "tyep": 2,
+        "name": "网上办税培训",
+        "author": {
+          "id": "user_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFY8RWnfd7t9MmSMeYw2s5k.png",
+          "name": "sunny"
+        },
+        "org": {
+          "id": "org_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "name": "杭州地税"
+        }
+      }, {
+        "id": 1004,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "browse": 3650,
+        "collect": 410,
+        "like": 157,
+        "price": 85.7,
+        "tyep": 2,
+        "name": "网上办税培训",
+        "author": {
+          "id": "user_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFY8RWnfd7t9MmSMeYw2s5k.png",
+          "name": "sunny"
+        },
+        "org": {
+          "id": "org_id",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "name": "杭州地税"
+        }
+      }
+    ]
   }
 })

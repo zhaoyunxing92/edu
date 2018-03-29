@@ -1,16 +1,84 @@
 <swiper class='index-top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{topData}}" wx:for-item="item" wx:key="{{item.id}}">
     <swiper-item>
-      <image  src="{{item.cover}}" class="index-slide-image"/>
+      <image src="{{item.cover}}" lazy-load="true" class="index-slide-image" />
     </swiper-item>
   </block>
-</swiper> 
+</swiper>
 <view class='container'>
-  
-   <text class='card-title'><text class='vui-icon icon-recommend'/>推荐课程</text>
-   <icons id="icons" type='icon-recommend'  style="width: 24rpx;height: 27rpx;"/>
-   <text class='more'>更多<text class='vui-icon icon-more'></text></text>
- </view>
 
+  <view class='course-card'>
+    <text class='card-title'><text class='vui-icon icon-recommend'/>推荐课程</text>
+    <text class='more'>更多<text class='vui-icon icon-more'></text></text>
+    <!--课程列表  -->
+    <view class='course-list'>
+      <view class='course-item' wx:for="{{nominateList}}" wx:for-item="item" wx:key="{{item.id}}">
+        <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        <view class='course-item-info'>
+          <text class='course-title'>{{item.name}}</text>
+          <!--统计数据  -->
+          <text class='course-stat'>
+       
+         <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
+           <text class='vui-icon icon-money'/>
+           <text>{{item.price==0?'免费':item.price}}</text>
+          </text>
 
+          <text class='course-stat-item'>
+          <text class='vui-icon icon-browse'/>
+          <text>{{item.browse}}</text>
+          </text>
 
+          <text class='course-stat-item'>
+         <text class='vui-icon icon-collect'/>
+         <text>{{item.collect}}</text>
+          </text>
+
+          </text>
+          <view class='course-org'>
+            <image src='{{item.org.cover}}' class='course-org-cover' />
+            <text class='course-org-name'>{{item.org.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='course-card'>
+    <text class='card-title'><text class='vui-icon icon-hot'/>推荐课程</text>
+    <text class='more'>更多<text class='vui-icon icon-more'></text></text>
+    <!--课程列表  -->
+    <view class='course-list'>
+      <view class='course-item' wx:for="{{nominateList}}" wx:for-item="item" wx:key="{{item.id}}">
+        <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        <view class='course-item-info'>
+          <text class='course-title'>{{item.name}}</text>
+          <!--统计数据  -->
+          <text class='course-stat'>
+       
+         <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
+           <text class='vui-icon icon-money'/>
+           <text>{{item.price==0?'免费':item.price}}</text>
+          </text>
+
+          <text class='course-stat-item'>
+          <text class='vui-icon icon-browse'/>
+          <text>{{item.browse}}</text>
+          </text>
+
+          <text class='course-stat-item'>
+         <text class='vui-icon icon-collect'/>
+         <text>{{item.collect}}</text>
+          </text>
+
+          </text>
+          <view class='course-org'>
+            <image src='{{item.org.cover}}' class='course-org-cover' />
+            <text class='course-org-name'>{{item.org.name}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
