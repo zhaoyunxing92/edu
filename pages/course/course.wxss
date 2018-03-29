@@ -1,4 +1,5 @@
+/*课程列表  */
 .course-list{
-  padding: 15rpx 15rpx;
+  padding:30rpx 35rpx;
   background-color: #fff;
-}
+} 
