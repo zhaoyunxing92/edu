@@ -95,25 +95,6 @@ App({
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
         }
-      }, {
-        "id": 1004,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
-        "browse": 3650,
-        "collect": 410,
-        "like": 157,
-        "price": 85.7,
-        "tyep": 2,
-        "name": "网上办税培训",
-        "author": {
-          "id": "user_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFY8RWnfd7t9MmSMeYw2s5k.png",
-          "name": "sunny"
-        },
-        "org": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
-        }
       }
     ],
     courseList:[
