@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    nominateList: [],
+    courseList: [],
   },
 
   /**
@@ -14,7 +14,7 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      nominateList: app.globalData.nominateList
+      courseList: app.globalData.courseList
     })
   },
 
