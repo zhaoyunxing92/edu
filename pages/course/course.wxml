@@ -1,7 +1,7 @@
 <!--课程列表  -->
 <view class='course-list'>
 <navigator class='course-search' url="/pages/search/search" hover-class='none'>
- <input placeholder="搜索" disabled />
+ <text class='vui-icon icon-collect'></text>
 </navigator>
  
   <view class='course-item' wx:for="{{courseList}}" wx:for-item="item" wx:key="{{item.id}}">
