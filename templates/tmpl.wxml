@@ -1,5 +1,3 @@
-
-
 <!--课程列表页面  -->
 <template name="courseList">
   <view class='course-list'>
@@ -13,7 +11,7 @@
         <text class='course-title'>{{item.name}}</text>
         <!--统计数据  -->
         <text class='course-stat'>
-       
+        
          <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
            <text class='vui-icon icon-money'/>
            <text>{{item.price==0?'免费':item.price}}</text>
