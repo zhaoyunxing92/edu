@@ -30,7 +30,8 @@ Page({
         "id": 10004
       }
     ],
-    nominateList:[],
+    courseList:{},
+    nominateList:[],/*推荐课程列表*/
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -56,7 +57,8 @@ Page({
    
     //推荐列表
     this.setData({
-      nominateList: app.globalData.nominateList
+      nominateList: app.globalData.nominateList,
+      hotList: app.globalData.nominateList
     })
     if (app.globalData.userInfo) {
       this.setData({
