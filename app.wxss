@@ -11,6 +11,7 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  margin:0 5rpx; 
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -50,7 +51,7 @@
 /*推荐  */
 .icon-recommend:before {
   content: "\e908";
-  color: #5bd5dd;
+  color: #29bafe;
 }
 /*page设置默认背景  */
 page {  
