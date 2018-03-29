@@ -1,1 +1,5 @@
-/* pages/course/course.wxss */
+@import "/assets/css/common.wxss";
+.course-list{
+  padding: 15rpx 15rpx;
+  background-color: #fff;
+}

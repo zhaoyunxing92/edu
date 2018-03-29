@@ -2,5 +2,5 @@
   "usingComponents": {
     "icons": "../../components/icons/icons",
     "dialog": "../../components/dialog/dialog"
-  }
+  } 
 }
