@@ -1,2 +1,3 @@
-<!--pages/courseDetails/courseDetails.wxml-->
-<text>pages/courseDetails/courseDetails.wxml</text>
+<view>
+  <video src=""></video>
+</view>

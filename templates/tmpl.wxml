@@ -11,7 +11,7 @@
         <text class='course-title'>{{item.name}}</text>
         <!--统计数据  -->
         <text class='course-stat'>
-        
+
          <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
            <text class='vui-icon icon-money'/>
            <text>{{item.price==0?'免费':item.price}}</text>
@@ -116,5 +116,12 @@
         </view>
       </view>
     </view>
+  </view>
+</template>
+
+<!--播放模板  -->
+<template name="videoTpl">
+  <view>
+  
   </view>
 </template>
