@@ -4,7 +4,8 @@
     "pages/me/me",
     "pages/dynamic/dynamic",
     "pages/course/course",
-    "pages/org/org"
+    "pages/org/org",
+    "pages/search/search"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",

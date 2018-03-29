@@ -1,5 +1,9 @@
 <!--课程列表  -->
 <view class='course-list'>
+<navigator class='course-search' url="/pages/search/search" hover-class='none'>
+ <input placeholder="搜索" disabled />
+</navigator>
+ 
   <view class='course-item' wx:for="{{courseList}}" wx:for-item="item" wx:key="{{item.id}}">
     <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
     <view class='course-item-info'>
