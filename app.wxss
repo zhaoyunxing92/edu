@@ -61,7 +61,7 @@ page {
 .container{
   /* margin: 0rpx 0rpx; */
   border-top: solid 1rpx #eee;
-  padding: 18rpx;
+  padding: 20rpx;
   background-color: #fff;
   border-radius: 10rpx;
 }
