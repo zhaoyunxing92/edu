@@ -40,7 +40,7 @@
 <template name="nominateCourse">
   <view class='course-card'>
     <text class='card-title'><text class='vui-icon icon-recommend'/>推荐课程</text>
-    <navigator class='more' hover-class='none' url="/pages/org/org">
+    <navigator class='more' hover-class='none' url="/pages/nominate/nominate?title=推荐课程&type=1">
       <text>更多<text class='vui-icon icon-more'></text></text>
     </navigator>
     <view class='course-list'>
@@ -81,7 +81,7 @@
 <template name="hotCourse">
   <view class='course-card'>
     <text class='card-title'><text class='vui-icon icon-hot'/>热门课程</text>
-    <navigator class='more' hover-class='none' url="/pages/org/org">
+    <navigator class='more' hover-class='none'  url="/pages/nominate/nominate?title=热门课程&type=1">
       <text>更多<text class='vui-icon icon-more'></text></text>
     </navigator>
     <view class='course-list'>

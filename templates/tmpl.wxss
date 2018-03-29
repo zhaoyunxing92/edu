@@ -7,6 +7,7 @@
 /*课程列表  */
 .course-list{
   padding: 15rpx 15rpx;
+ background-color: #fff;
 } 
 .course-item{
    display: block;

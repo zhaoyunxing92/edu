@@ -1,2 +1,3 @@
 <!--pages/nominate/nominate.wxml-->
-<text>推荐</text>
+<import src="../../templates/tmpl.wxml"/>
+ <template is="courseList" data="{{courseList}}" />
