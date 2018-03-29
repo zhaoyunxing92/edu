@@ -1,10 +1,3 @@
 {
-  "window": {
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "课程",
-    "backgroundColor": "#eeeeee",
-    "backgroundTextStyle": "dark",
-    "enablePullDownRefresh": false
-  }
+
 }
