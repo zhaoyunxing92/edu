@@ -2,7 +2,7 @@
 <swiper class='index-top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{topData}}" wx:for-item="item" wx:key="{{item.id}}">
     <swiper-item>
-      <image bindtap="goTo" data-item="{{item}}" src="{{item.cover}}" lazy-load="true" class="index-slide-image" />
+      <image bindtap="goToPath" data-item="{{item}}" src="{{item.cover}}" lazy-load="true" class="index-slide-image" />
     </swiper-item>
   </block>
 </swiper>

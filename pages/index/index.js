@@ -37,7 +37,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
-  goTo: function(env) {
+  goToPath: function(env) {
     // wx.navigateTo({
     //   url: '../logs/logs'
     // })
