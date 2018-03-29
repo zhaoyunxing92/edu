@@ -6,7 +6,7 @@
 /*文本内容容器*/
 .container{
   /* margin: 0rpx 0rpx; */
-  margin: 24rpx auto;
+  margin: 45rpx auto;
 }
 /*page设置默认背景  */
 page {

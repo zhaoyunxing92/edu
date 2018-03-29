@@ -1,8 +1,8 @@
 /*课程列表 卡片 */
 .course-card{
- margin-top: 30rpx;
+ margin-top: 40rpx;
  background-color: #fff;
- padding: 15rpx;
+ padding: 25rpx;
 }
 /*课程列表  */
 .course-list{
