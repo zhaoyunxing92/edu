@@ -1,80 +1,107 @@
 /*课程列表 卡片 */
-.course-card{
- margin-top: 40rpx;
- background-color: #fff;
- padding: 25rpx;
-}
-/*课程列表  */
-.course-list{
-  padding:15rpx;
+
+.course-card {
+  margin-top: 40rpx;
   background-color: #fff;
-} 
-.course-item{
-   display: block;
-   border-bottom: solid 1rpx #f5f5f5;
-   height: 240rpx;
-   width: 100%;
+  padding: 25rpx;
 }
-.course-item:last-child{
+
+/*课程列表  */
+
+.course-list {
+  padding: 15rpx;
+  background-color: #fff;
+}
+
+.course-item {
+  display: block;
+  border-bottom: solid 1rpx #f5f5f5;
+  height: 240rpx;
+  width: 100%;
+}
+
+.course-item:last-child {
   border: none;
 }
-.course-item-cover,.course-item-info{
-height: 200rpx;
-margin:20rpx 0; 
+
+.course-item-cover, .course-item-info {
+  height: 200rpx;
+  margin: 20rpx 0;
 }
+
 /*课程封面  */
-.course-item-cover{
-float: left;
-width: 45%;
-border-radius: 10rpx;
+
+.course-item-cover {
+  float: left;
+  width: 45%;
+  border-radius: 10rpx;
 }
+
 /*课程信息  */
-.course-item-info{
-width: 52%;
-float: right;
-height: 200rpx;
+
+.course-item-info {
+  width: 52%;
+  float: right;
+  height: 200rpx;
 }
 
 /*课程标题 */
-.course-title{
+
+.course-title {
   float: left;
   font-size: 28rpx;
   width: 100%;
   overflow: hidden;
-  text-overflow:ellipsis;
+  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.course-stat{
+.course-stat {
   font-size: 25rpx;
   color: #ccc;
   width: 100%;
   display: inline-block;
 }
-.course-stat-item{
+
+.course-stat-item {
   display: inline-block;
   width: 33%;
 }
 
 /*组织  */
-.course-org,.course-stat,.course-title{
-   height: 33%;
+
+.course-org, .course-stat, .course-title {
+  height: 33%;
 }
 
 /*组织名称  */
-.course-org-name{
-   color: #707070;
-   font-size: 30rpx;
-   margin-left: 10rpx;
+
+.course-org-name {
+  color: #707070;
+  font-size: 30rpx;
+  margin-left: 10rpx;
 }
+
 /*组织logo  */
-.course-org-cover{
+
+.course-org-cover {
   height: 60rpx;
   width: 60rpx;
   border-radius: 30rpx;
   float: left;
 }
 
-.has-price{
+.has-price {
   color: red;
+}
+
+/*课程搜索  */
+
+.course-search {
+  height: 80rpx;
+  line-height: 80rpx;
+  border: solid 1rpx #eee;
+  border-radius: 40rpx;
+  background-color: #f5f5f5;
+  margin: 8rpx auto;
 }

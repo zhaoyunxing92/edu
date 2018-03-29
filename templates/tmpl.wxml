@@ -1,8 +1,11 @@
+
+
 <!--课程列表页面  -->
 <template name="courseList">
   <view class='course-list'>
     <navigator class='course-search' url="/pages/search/search" hover-class='none'>
-      <text class='vui-icon icon-collect'></text>
+      <!-- <text class='vui-icon icon-collect'></text> -->
+      <icon type="search" style='margin: 20rpx;' size="20"/>
     </navigator>
     <view class='course-item' wx:for="{{courseList}}" wx:for-item="item" wx:key="{{item.id}}">
     <navigator url="/pages/courseDetails/courseDetails" hover-class='none'>
