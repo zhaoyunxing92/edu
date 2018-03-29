@@ -5,7 +5,10 @@
       <text class='vui-icon icon-collect'></text>
     </navigator>
     <view class='course-item' wx:for="{{courseList}}" wx:for-item="item" wx:key="{{item.id}}">
-      <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+    <navigator url="/pages/courseDetails/courseDetails" hover-class='none'>
+     <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+    </navigator>
+     
       <view class='course-item-info'>
         <text class='course-title'>{{item.name}}</text>
         <!--统计数据  -->
@@ -45,7 +48,9 @@
     </navigator>
     <view class='course-list'>
       <view class='course-item' wx:for="{{nominateList}}" wx:for-item="item" wx:key="{{item.id}}">
-        <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        <navigator url="/pages/courseDetails/courseDetails" hover-class='none'>
+          <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        </navigator>
         <view class='course-item-info'>
           <text class='course-title'>{{item.name}}</text>
           <!--统计数据  -->
@@ -86,7 +91,9 @@
     </navigator>
     <view class='course-list'>
       <view class='course-item' wx:for="{{hotList}}" wx:for-item="item" wx:key="{{item.id}}">
-        <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        <navigator url="/pages/courseDetails/courseDetails" hover-class='none'>
+         <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+        </navigator>
         <view class='course-item-info'>
           <text class='course-title'>{{item.name}}</text>
           <!--统计数据  -->
