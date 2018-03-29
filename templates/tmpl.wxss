@@ -1,4 +1,3 @@
-
 /*课程列表 卡片 */
 .course-card{
  margin-top: 30rpx;
@@ -55,7 +54,6 @@ height: 200rpx;
   display: inline-block;
   width: 33%;
 }
-
 
 /*组织  */
 .course-org,.course-stat,.course-title{

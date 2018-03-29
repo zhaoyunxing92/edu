@@ -1,6 +1,4 @@
 /**index.wxss**/
-@import "/assets/css/common.wxss";
-
 .index-top-card{
   width: 100%;
   height: 380rpx;
