@@ -4,6 +4,7 @@
   width: 100%;
   height: 380rpx;
   border-bottom: 1rpx solid #eeeeee;
+  margin-bottom: 30rpx;
 }
 /*首页轮播图宽高*/
 .index-slide-image{

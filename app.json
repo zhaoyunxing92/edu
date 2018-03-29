@@ -26,6 +26,12 @@
         "selectedIconPath": "assets/imges/discovery-select.png"
       },
       {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "assets/imges/course.png",
+        "selectedIconPath": "assets/imges/course-select.png"
+      },
+      {
         "pagePath": "pages/dynamic/dynamic",
         "text": "动态",
         "iconPath": "assets/imges/dynamic.png",

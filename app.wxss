@@ -50,6 +50,7 @@
 /*推荐  */
 .icon-recommend:before {
   content: "\e908";
+  color: #5bd5dd;
 }
 /*page设置默认背景  */
 page {  
@@ -57,8 +58,9 @@ page {
 }
 /*文本内容容器*/
 .container{
-  margin: 30rpx 30rpx;
-  padding: 10rpx;
+  /* margin: 0rpx 0rpx; */
+  border-top: solid 1rpx #eee;
+  padding: 18rpx;
   background-color: #fff;
   border-radius: 10rpx;
 }
