@@ -120,8 +120,4 @@
 </template>
 
 <!--播放模板  -->
-<template name="videoTpl">
-  <view>
-  
-  </view>
-</template>
+
