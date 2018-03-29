@@ -5,16 +5,13 @@
     font-weight: normal;
     font-style: normal;
 }
-
 .vui-icon{
-  
   font-family: 'icomoon' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
