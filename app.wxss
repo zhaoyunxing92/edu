@@ -56,13 +56,12 @@
 }
 /*page设置默认背景  */
 page {  
-  background-color: #f5f5f5;
+  background-color: #eee;
 }
 /*文本内容容器*/
 .container{
   /* margin: 0rpx 0rpx; */
   margin: 24rpx auto;
-  background-color: #f5f5f5;
 }
 .card-title{
   color: #333;
