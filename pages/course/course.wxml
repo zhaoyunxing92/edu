@@ -1,2 +1,29 @@
-<!--pages/course/course.wxml-->
-<text>pages/course/course.wxml</text>
+<view class='course-item' wx:for="{{nominateList}}" wx:for-item="item" wx:key="{{item.id}}">
+  <image src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
+  <view class='course-item-info'>
+    <text class='course-title'>{{item.name}}</text>
+    <!--统计数据  -->
+    <text class='course-stat'>
+       
+         <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
+           <text class='vui-icon icon-money'/>
+           <text>{{item.price==0?'免费':item.price}}</text>
+    </text>
+
+    <text class='course-stat-item'>
+          <text class='vui-icon icon-browse'/>
+          <text>{{item.browse}}</text>
+    </text>
+
+    <text class='course-stat-item'>
+         <text class='vui-icon icon-collect'/>
+         <text>{{item.collect}}</text>
+    </text>
+
+    </text>
+    <view class='course-org'>
+      <image src='{{item.org.cover}}' class='course-org-cover' />
+      <text class='course-org-name'>{{item.org.name}}</text>
+    </view>
+  </view>
+</view>
