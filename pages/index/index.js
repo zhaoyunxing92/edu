@@ -41,7 +41,10 @@ Page({
     // wx.navigateTo({
     //   url: '../logs/logs'
     // })
-    console.log(env.currentTarget.dataset.item);
+    //console.log(env.currentTarget.dataset.item);
+    wx.navigateTo({
+      url: '/pages/courseDetails/courseDetails?item=' + JSON.stringify(env.currentTarget.dataset.item)  
+    })
   },
   onLoad: function () {
     this.i = this.selectComponent("#icons");
