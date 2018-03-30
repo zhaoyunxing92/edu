@@ -12,7 +12,7 @@ Component({
       value: '0'
     },
     url:{//播放地址
-      type: String,
+      type: String
     },
     danmuList: {//弹幕列表
       type: Array,

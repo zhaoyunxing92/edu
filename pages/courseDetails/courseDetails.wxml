@@ -1,49 +1,50 @@
 <view class="course-detatils">
-<vui-video class='course-details-video' id="video" url="http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8" />
-
-
-<view class='course-details-container'>
-  <!--课程介绍  -->
-  <view class="course-details-summary">
-    《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。
-  </view>
-  <!--课程统计数据  -->
-  <text class='course-details-stat'>
+  <!-- <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" /> -->
+  
+  <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" />
+  <text class="video-shadow-line" />
+  <view class='course-details-container'>
+    <!--课程介绍  -->
+    <view class="course-details-summary">
+      {{course.summary}}
+    </view>
+    <!--课程统计数据  -->
+    <text class='course-details-stat'>
   <text class='course-stat-item'>
      <text class='vui-icon icon-recommend'/>点赞
   </text>
-  <text class='course-stat-item'>
+    <text class='course-stat-item'>
      <text class='vui-icon icon-collect'/>收藏
   </text>
-  <text class='course-stat-item'>
+    <text class='course-stat-item'>
      <text class='vui-icon icon-recommend'/>评论
   </text>
-  <text class='course-stat-item'>
+    <text class='course-stat-item'>
      <text class='vui-icon icon-recommend'/>分享
   </text>
-  </text>
+    </text>
 
 
-  <!--课程评论列表  -->
-  <view class='course-details-opinion'>
-    
-    <view wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
-    <!-- 课程发言作者 -->
-    <view class='course-opinion-user'>
-      <image class='course-opinion-user-cover' src='{{user.cover}}' />
-      <text class='course-opinion-user-name'>{{user.name}}</text>
-      <text class='course-opinion-user-time'>{{user.time}}</text>
-      <text class='course-opinion-user-like'>  
+    <!--课程评论列表  -->
+    <view class='course-details-opinion'>
+
+      <view wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
+        <!-- 课程发言作者 -->
+        <view class='course-opinion-user'>
+          <image class='course-opinion-user-cover' src='{{user.cover}}' />
+          <text class='course-opinion-user-name'>{{user.name}}</text>
+          <text class='course-opinion-user-time'>{{user.time}}</text>
+          <text class='course-opinion-user-like'>  
          <text class='vui-icon icon-collect'/>{{user.likes}}
       </text>
-    </view>
-    <!--发言内容-->
-   <view class='course-opinion-content'>
-     {{user.content}}
-    </view>
+        </view>
+        <!--发言内容-->
+        <view class='course-opinion-content'>
+          {{user.content}}
+        </view>
+      </view>
     </view>
   </view>
-</view>
   <text class='course-opinion-btn'>
   发言
   </text>

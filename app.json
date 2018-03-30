@@ -1,9 +1,7 @@
 {
   "pages": [
-    "pages/courseDetails/courseDetails",
     "pages/index/index",
-    
-    
+    "pages/courseDetails/courseDetails",
     "pages/me/me",
     "pages/dynamic/dynamic",
     "pages/course/course",
