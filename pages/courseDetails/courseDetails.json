@@ -1,1 +1,5 @@
-{}
+{
+    "usingComponents": {
+      "vui-video": "../../components/video/vui-video"
+    }
+}

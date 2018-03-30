@@ -1,14 +1,16 @@
 {
   "pages": [
-    "pages/index/index",
+   "pages/index/index",
+    "pages/courseDetails/courseDetails",
+    
     "pages/me/me",
     "pages/dynamic/dynamic",
     "pages/course/course",
     "pages/org/org",
     "pages/search/search",
     "pages/nominate/nominate",
-    "pages/courseDetails/courseDetails",
-    "components/video/video"
+    "components/video/vui-video",
+    "components/i/vui-i"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",

@@ -47,8 +47,8 @@ Page({
     })
   },
   onLoad: function () {
-    this.i = this.selectComponent("#icons");
-    this.dialog = this.selectComponent("#dialog");
+   // this.i = this.selectComponent("#icons");
+    //this.dialog = this.selectComponent("#dialog");
     //首页显示分享
     wx.showShareMenu({
       withShareTicket: false

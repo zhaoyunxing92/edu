@@ -1,3 +1,22 @@
-<view style='width: 100%;'>
-  <video style='width: 100%;' src="http://v.dingtax.cn/30be08f2f5b74ff58042399c96557979/c2d5487bc48348d0b5404cc7ffe4c7a0-S00000001-200000.mp4" poster="https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg" objectFit='fill' danmu-btn enable-danmu autoplay></video>
+ <view>
+  <!-- <video style='width: 100%;' src="http://v.dingtax.cn/30be08f2f5b74ff58042399c96557979/c2d5487bc48348d0b5404cc7ffe4c7a0-S00000001-200000.mp4" poster="https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg" initial-time='1.0.0' objectFit='fill' danmu-btn enable-danmu autoplay>
+  <cover-view class="controls">
+    <cover-view class="play" bindtap="play">
+      <cover-image class="img" src="/assets/imges/discovery.png" />
+    </cover-view>
+    <cover-view class="pause" bindtap="pause">
+      <cover-image class="img" src="/path/to/icon_pause" />
+    </cover-view>
+    <cover-view class="time">00:00</cover-view>
+  </cover-view>
+  </video> -->
+  <vui-video id="video" url="http://v.dingtax.cn/30be08f2f5b74ff58042399c96557979/c2d5487bc48348d0b5404cc7ffe4c7a0-S00000001-200000.mp4"/>
+</view> 
+<view class="body">
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">系统提醒</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">优惠活动</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">for system</view>
+  <view class="{{selected1?'show':'hidden'}}">for activity</view>
 </view>

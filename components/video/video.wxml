@@ -1,3 +1,0 @@
-<view>
-  <video style='width: 100%;' src="{{url}}" danmu-list="{{danmuList}}" poster='{{cover}}' objectFit='fill' danmu-btn enable-danmu/>
-</view>
