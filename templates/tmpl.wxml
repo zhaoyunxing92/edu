@@ -3,7 +3,7 @@
   <view class='course-list'>
     <navigator class='course-search' url="/pages/search/search" hover-class='none'>
       <!-- <text class='vui-icon icon-collect'></text> -->
-      <icon type="search" style='margin: 20rpx;' size="20"/>
+      <icon type="search" style='margin:8px 20rpx;' size="20"/>
     </navigator>
     <view class='course-item' wx:for="{{courseList}}" wx:for-item="item" wx:key="{{item.id}}">
      <image  bindtap="goToPath" data-item="{{item}}" src="{{item.cover}}" lazy-load="true" class="course-item-cover" /> 
