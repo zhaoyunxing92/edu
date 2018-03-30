@@ -21,17 +21,28 @@
      <text class='vui-icon icon-recommend'/>分享
   </text>
   </text>
+
+
   <!--课程评论列表  -->
-  <view class='course-details-opinion'>
+  <view class='course-details-opinion' wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
     <!-- 课程发言作者 -->
     <view class='course-opinion-user'>
-      <image class='course-opinion-user-cover' src='https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg' />
-      <text class='course-opinion-user-name'>sunny</text>
-      <text class='course-opinion-user-time'>2018.02.15</text>
-      <text class='course-opinion-user-like'>
-         
-         <text class='vui-icon icon-collect'/>9
+      <image class='course-opinion-user-cover' src='{{user.cover}}' />
+      <text class='course-opinion-user-name'>{{user.name}}</text>
+      <text class='course-opinion-user-time'>{{user.time}}</text>
+      <text class='course-opinion-user-like'>  
+         <text class='vui-icon icon-collect'/>{{user.likes}}
       </text>
     </view>
+    <!--发言内容-->
+   <view class='course-opinion-content'>
+     {{user.content}}
+    </view>
   </view>
+
+  
+
+ 
+
+   
 </view>

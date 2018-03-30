@@ -1,6 +1,6 @@
 // pages/courseDetails/courseDetails.js
 const util = require('../../utils/util.js')
-
+const app = getApp()
 Page({
 
   /**
@@ -9,7 +9,8 @@ Page({
   data: {
     course:{},
     selected: true,
-    selected1: false
+    selected1: false,
+    courseOpinions:[],//课程发言
   },
   /**
    * 生命周期函数--监听页面加载
@@ -25,7 +26,12 @@ Page({
     } 
     wx.setNavigationBarTitle({
       title: util.getValue(item, 'name', '播放课程')
-    }) 
+    })
+
+    //  设置发言数据
+    this.setData({
+      courseOpinions: app.globalData.courseOpinions
+    })
   },
 
   /**

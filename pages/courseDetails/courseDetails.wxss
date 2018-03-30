@@ -129,3 +129,9 @@ margin: 25rpx auto;
 color: #999;
 font-size: 28rpx;
 }
+/*发言内容  */
+.course-opinion-content{
+  padding: 8rpx 40rpx;
+  font-size: 28rpx;
+  color: #707070;
+}

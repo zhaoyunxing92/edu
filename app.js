@@ -226,7 +226,65 @@ App({
         "name": "丁税宝宣传视频",
         "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       }
+    ],
+    // 课程发言数据
+    courseOpinions:[
+      {
+        "id":"1",
+        "name":"sunny",
+        "cover":"https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content":"尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes":8,
+        "time":"2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "abpj2gdu",
+        "cover": "http://static.dingtalk.com/media/lADOpdce-M0CMM0C7A_748_560.jpg",
+        "content": "除了通过钉钉打开支付宝办税做12万申报，直接通过支付宝怎么打开？ 刚走神了[认真]",
+        "likes": 4,
+        "time": "2018-02-06 15:43:54"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      }
     ]
-
   }
 })
