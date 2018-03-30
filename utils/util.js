@@ -16,14 +16,17 @@ const formatNumber = n => {
 
 const getValue=(obj,key,def)=>{
   
-   if(undefined===obj||null===obj){
+   if(undefined==obj||null==obj){
      return def;
    }
-   let val = obj.key;
-   if (val != undefined || val != null){
-     return val;
+   //只处理object对象
+   if (typeof (obj) == 'object'){
+     let val = obj[key];
+     if (val != undefined || val != null) {
+       return val;
+     }
+     return def;
    }
-   return def;
 }
 
 module.exports = {
