@@ -10,7 +10,7 @@
     <cover-view class="time">00:00</cover-view>
   </cover-view>
   </video> -->
-  <vui-video id="video" url="http://v.dingtax.cn/30be08f2f5b74ff58042399c96557979/c2d5487bc48348d0b5404cc7ffe4c7a0-S00000001-200000.mp4"/>
+  <vui-video id="video" url="http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8"/>
 </view> 
 <view class="body">
   <view class="nav bc_white">

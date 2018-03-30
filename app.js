@@ -189,6 +189,38 @@ App({
           "name": "杭州地税"
         }
       }
+    ],
+    //首页轮播图数据
+    swiperList:[
+      {
+        "id": 10001,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "name":"丁税宝宣传视频"
+      },
+      {
+        "id": 10002,
+        "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
+        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "name": "丁税宝宣传视频"
+      },
+      {
+        "id": 10003,
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "name": "丁税宝宣传视频"
+      },
+      {
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
+        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "id": 10005,
+        "name": "丁税宝宣传视频"
+      }, {
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "id": 10004,
+        "name": "丁税宝宣传视频"
+      }
     ]
 
   }
