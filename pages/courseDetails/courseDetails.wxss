@@ -1,6 +1,6 @@
 /* pages/courseDetails/courseDetails.wxss */
 
-page {
+/* page {
   background-color: #edf0f3;
 }
 
@@ -63,4 +63,35 @@ page {
   width: 40px;
   height: 40px;
   margin: 5px auto;
+} */
+/* page{
+  background-color: #fff;
+} */
+
+.course-details-video,video{
+ height: 380rpx;
+ width: 100%;
+}
+
+.course-details-container{
+  padding: 15rpx 28rpx;
+  background-color: #fff;
+}
+/*课程简介  */
+.course-details-summary{
+  font-size: 30rpx;
+  color: #666;
+}
+/*课程统计 */
+.course-details-stat{
+  color: #ccc;
+  line-height: 140rpx;
+  display: inline-block;
+  width: 100%;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.course-stat-item {
+  width: 25%;
 }

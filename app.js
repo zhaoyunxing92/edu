@@ -196,30 +196,35 @@ App({
         "id": 10001,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name":"丁税宝宣传视频"
+        "name":"丁税宝宣传视频",
+        "summary":"《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       },
       {
         "id": 10002,
         "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name": "丁税宝宣传视频"
+        "name": "丁税宝宣传视频",
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       },
       {
         "id": 10003,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name": "丁税宝宣传视频"
+        "name": "丁税宝宣传视频",
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       },
       {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "id": 10005,
-        "name": "丁税宝宣传视频"
+        "name": "丁税宝宣传视频",
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       }, {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "id": 10004,
-        "name": "丁税宝宣传视频"
+        "name": "丁税宝宣传视频",
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
       }
     ]
 
