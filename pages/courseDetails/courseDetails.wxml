@@ -11,16 +11,16 @@
     <!--课程统计数据  -->
     <text class='course-details-stat'>
   <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>点赞
+     <text class='vui-icon icon-recommend'/>{{course.like}}
   </text>
     <text class='course-stat-item'>
-     <text class='vui-icon icon-collect'/>收藏
+     <text class='vui-icon icon-collect'/>{{course.collect}}
   </text>
     <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>评论
+     <text class='vui-icon icon-recommend'/>{{course.op}}
   </text>
     <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>分享
+     <text class='vui-icon icon-recommend'/>{{course.share}}
   </text>
     </text>
 

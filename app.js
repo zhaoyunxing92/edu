@@ -42,9 +42,11 @@ App({
       {
         "id": 1001,
         "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
-        "browse": 1050,
-        "collect": 5080,
-        "like": 87,
+        "browse": 3650,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
+        "like": 157,
         "price": 0,
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
@@ -57,7 +59,9 @@ App({
         "id": 1002,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
@@ -71,9 +75,11 @@ App({
         "id": 1003,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
-        "price": 0,
+        "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
         "org": {
@@ -88,13 +94,15 @@ App({
       {
         "id": 1001,
         "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
-        "browse": 1050,
-        "collect": 5080,
-        "like": 87,
-        "price": 0,
+        "browse": 3650,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
+        "like": 157,
+        "price": 85.7,
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-       
+        "summary": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
         "org": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -104,12 +112,14 @@ App({
         "id": 1002,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
         "name": "企业所得税汇算清缴培训",
-       
+        "summary": "企业所得税汇算清缴培训",
         "org": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -119,12 +129,14 @@ App({
         "id": 1003,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
-        "price": 0,
+        "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
-       
+        "summary": "网上办税培训",
         "org": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -134,12 +146,14 @@ App({
         "id": 1004,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
-       
+        "summary": "网上办税培训",
         "org": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -149,12 +163,14 @@ App({
         "id": 1004,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
-        
+        "summary": "网上办税培训",
         "org": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -164,10 +180,13 @@ App({
         "id": 1004,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
+        "summary": "网上办税培训",
         "name": "网上办税培训",    
         "org": {
           "id": "org_id",
@@ -178,10 +197,13 @@ App({
         "id": 1004,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
         "browse": 3650,
-        "collect": 410,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
         "like": 157,
         "price": 85.7,
         "tyep": 2,
+        "summary":"网上办税培训",
         "name": "网上办税培训",
         "org": {
           "id": "org_id",
@@ -197,34 +219,54 @@ App({
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "name":"丁税宝宣传视频",
-        "summary":"《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
+        "summary":"《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "like":1580,
+        "collect":587,
+        "op":87,
+        "share":79
       },
       {
         "id": 10002,
         "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "like": 10,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879
       },
       {
         "id": 10003,
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "like": 8810,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879
       },
       {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "id": 10005,
         "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "like": 8810,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879
       }, {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
         "id": 10004,
         "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。"
+        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "like": 8810,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879
       }
     ],
     // 课程发言数据
@@ -243,7 +285,23 @@ App({
         "cover": "http://static.dingtalk.com/media/lADOpdce-M0CMM0C7A_748_560.jpg",
         "content": "除了通过钉钉打开支付宝办税做12万申报，直接通过支付宝怎么打开？ 刚走神了[认真]",
         "likes": 4,
-        "time": "2018-02-06 15:43:54"
+        "time": "2018-02-06"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
+      },
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "likes": 8,
+        "time": "2018.02.25"
       },
       {
         "id": "1",

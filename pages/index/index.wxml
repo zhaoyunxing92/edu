@@ -11,4 +11,10 @@
 <template is="nominateCourse" data="{{nominateList}}"/>
 <!--热门课程  -->
 <template is="hotCourse" data="{{hotList}}"/>
+
+<!--热门课程  -->
+<template is="hotCourse" data="{{hotList}}"/>
+
+<!--热门课程  -->
+<template is="hotCourse" data="{{hotList}}"/>
 </view>
