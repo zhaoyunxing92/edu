@@ -98,10 +98,11 @@
 /*课程搜索  */
 
 .course-search {
-  height: 80rpx;
-  line-height: 80rpx;
-  border: solid 1rpx #eee;
-  border-radius: 40rpx;
-  background-color: #f5f5f5;
-  margin: 8rpx auto;
+  height:70rpx;
+line-height:80rpx;
+border:solid 1rpx #eee;
+border-radius:36rpx;
+background-color:#f5f5f5;
+margin:10rpx auto;
+
 }
