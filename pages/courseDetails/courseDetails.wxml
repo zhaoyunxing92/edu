@@ -1,14 +1,13 @@
-
-  <vui-video class='course-details-video' id="video" url="http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8"/>
+<vui-video class='course-details-video' id="video" url="http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8" />
 
 
 <view class='course-details-container'>
-<!--课程介绍  -->
-<view class="course-details-summary"> 
-   《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。
-</view>
-<!--课程统计数据  -->
-<text class='course-details-stat'>
+  <!--课程介绍  -->
+  <view class="course-details-summary">
+    《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。
+  </view>
+  <!--课程统计数据  -->
+  <text class='course-details-stat'>
   <text class='course-stat-item'>
      <text class='vui-icon icon-recommend'/>点赞
   </text>
@@ -21,5 +20,18 @@
   <text class='course-stat-item'>
      <text class='vui-icon icon-recommend'/>分享
   </text>
-</text>
+  </text>
+  <!--课程评论列表  -->
+  <view class='course-details-opinion'>
+    <!-- 课程发言作者 -->
+    <view class='course-opinion-user'>
+      <image class='course-opinion-user-cover' src='https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg' />
+      <text class='course-opinion-user-name'>sunny</text>
+      <text class='course-opinion-user-time'>2018.02.15</text>
+      <text class='course-opinion-user-like'>
+         
+         <text class='vui-icon icon-collect'/>9
+      </text>
+    </view>
+  </view>
 </view>
