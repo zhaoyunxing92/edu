@@ -14,6 +14,17 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const getValue=(obj,key,def)=>{
+   if(undefined===obj||null===obj){
+     return def;
+   }
+   let val = obj.key;
+   if (val !== undefined || val !== null){
+     return val;
+   }
+   return def;
+}
+
 module.exports = {
   formatTime: formatTime
 }
