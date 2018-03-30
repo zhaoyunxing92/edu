@@ -12,9 +12,7 @@
 <!--热门课程  -->
 <template is="hotCourse" data="{{hotList}}"/>
 
-<!--热门课程  -->
+<!--热门直播  -->
 <template is="hotCourse" data="{{hotList}}"/>
 
-<!--热门课程  -->
-<template is="hotCourse" data="{{hotList}}"/>
 </view>
