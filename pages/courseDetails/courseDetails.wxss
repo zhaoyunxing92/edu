@@ -68,14 +68,25 @@ page{
   background-color: #fff;
 } 
 
-.course-details-video,video{
- height: 380rpx;
- width: 100%;
+.course-detatils{
+  width: 100%;
+  overflow-x: hidden;
 }
 
+.course-details-video,video{
+ width: 100%;
+ height: 380rpx;
+}
+/*课程内容浮动  */
 .course-details-container{
-  padding: 15rpx 28rpx;
-  /* background-color: #fff; */
+  /* height: 70%; */
+  padding: 15rpx 30rpx;
+  position: fixed;
+  overflow-y: scroll;
+  top: 380rpx; 
+  bottom: 100rpx;
+  /*
+  margin-bottom: 60rpx; */
 }
 /*课程简介  */
 .course-details-summary{
@@ -97,8 +108,8 @@ page{
 }
 /*课程发言列表  */
 .course-details-opinion{
-
 margin: 25rpx auto;
+
 }
 /*课程发言用户  */
 .course-opinion-user{
@@ -134,4 +145,14 @@ font-size: 28rpx;
   padding: 8rpx 40rpx;
   font-size: 28rpx;
   color: #707070;
+}
+/*发言按钮  */
+.course-opinion-btn{
+  background-color:rgba(0, 0, 0, .2);
+  opacity: .2;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  height: 100rpx;
 }

@@ -1,3 +1,4 @@
+<view class="course-detatils">
 <vui-video class='course-details-video' id="video" url="http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8" />
 
 
@@ -24,7 +25,9 @@
 
 
   <!--课程评论列表  -->
-  <view class='course-details-opinion' wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
+  <view class='course-details-opinion'>
+    
+    <view wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
     <!-- 课程发言作者 -->
     <view class='course-opinion-user'>
       <image class='course-opinion-user-cover' src='{{user.cover}}' />
@@ -38,11 +41,10 @@
    <view class='course-opinion-content'>
      {{user.content}}
     </view>
+    </view>
   </view>
-
-  
-
- 
-
-   
+</view>
+  <text class='course-opinion-btn'>
+  发言
+  </text>
 </view>
