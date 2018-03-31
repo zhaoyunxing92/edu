@@ -1,0 +1,4 @@
+<view class='course-card'>
+   <slot name="title"/>
+   <slot wx:if="{{hsExtra}}" name="extra" class='more'/>
+</view>  
