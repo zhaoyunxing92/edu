@@ -1,4 +1,3 @@
-<import src="../../templates/tmpl.wxml"/>
 <swiper class='index-top-card' indicator-dots autoplay interval="3000" duration="500">
   <block wx:for="{{topData}}" wx:for-item="item" wx:key="{{item.id}}">
     <swiper-item>
@@ -6,13 +5,22 @@
     </swiper-item>
   </block>
 </swiper>
+
 <view class='container'>
 <!--推荐课程  -->
-<template is="nominateCourse" data="{{nominateList}}"/>
-<!--热门课程  -->
-<template is="hotCourse" data="{{hotList}}"/>
+<card>
+   <view slot="title" class='card-title'><i name="recommend" color="#29bafe"/>推荐课程
+   <view bindtap="_navigateTo" data-title="推荐课程" data-type="1" slot="extra" class='more'>更多<i name="more"/></view>
+   </view> 
+   <vui-course-list slot="content" courses="{{nominateList}}"/>
+</card>
 
-<!--热门直播  -->
-<template is="hotCourse" data="{{hotList}}"/>
+<!--热门课程  -->
+<card>
+   <view slot="title" class='card-title'><i name="hot" color="red"/>热门课程
+   <view  bindtap="_navigateTo" data-title="热门课程" data-type="2" slot="extra" class='more'>更多<i name="more"/></view>
+   </view> 
+   <vui-course-list slot="content" courses="{{hotList}}"/>
+</card>
 
 </view>

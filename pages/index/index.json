@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-   
-  } 
+    "card": "/components/card/vui-card",
+    "i": "/components/icon/vui-icon",
+    "vui-course-list": "/components/courseList/vui-course-list"
+  }
 }

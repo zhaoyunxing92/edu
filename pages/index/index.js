@@ -22,6 +22,9 @@ Page({
     })
   },
   onLoad: function () {
+    wx.setTopBarText({
+      text: 'hello, world!'
+    })
     //首页显示分享
     wx.showShareMenu({
       withShareTicket: false
@@ -81,4 +84,13 @@ Page({
       title: "税小课"
     })
   },
+  //跳转
+  _navigateTo(env) {
+    let path ="/pages/nominate/nominate";
+    let title = env.currentTarget.dataset.title;
+    let type = env.currentTarget.dataset.type;
+    wx.navigateTo({
+      url: path + '?title=' + title+'&type='+type
+    })
+  }
 })
