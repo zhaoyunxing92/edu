@@ -52,4 +52,5 @@
 /*推荐  */
 .icon-recommend:before {
   content: "\e908";
+  color: #29bafe;
 }
