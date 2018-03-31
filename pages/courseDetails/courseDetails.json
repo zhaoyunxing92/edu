@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "vui-video": "/components/video/vui-video"
+    "vui-video": "/components/video/vui-video",
+    "card": "/components/card/vui-card",
+    "i": "/components/icon/vui-icon"
   }
 }

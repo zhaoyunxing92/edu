@@ -9,18 +9,3 @@
   height: 100%;
 }
 
-.card-title{
-  color: #333;
-}
-/*更多 */
-.more{
-  padding: 8rpx 0;
-  line-height: 25rpx;
-  height: 25rpx;
-  float: right;
-  font-size: 30rpx;
-  color: #707070;
-}
-.container{
-   /* background-color:  ; */
-}
