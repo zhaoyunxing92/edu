@@ -1,3 +1,6 @@
-<!--课程列表  -->
- <import src="../../templates/tmpl.wxml"/>
- <template is="courseList" data="{{courseList}}" />
+<view class='container'>
+ <navigator class='course-search' url="/pages/search/search" hover-class='none'>
+    <icon type="search" style='margin:7px 25rpx;' size="20"/>
+ </navigator>
+ <vui-course-list courses="{{courseList}}"/>
+ </view>

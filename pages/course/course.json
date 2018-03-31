@@ -1,3 +1,5 @@
 {
-
+"usingComponents": {
+  "vui-course-list": "/components/courseList/vui-course-list"
+}
 }
