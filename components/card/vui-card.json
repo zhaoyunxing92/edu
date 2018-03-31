@@ -1,6 +1,3 @@
 {
-  "component": true,
-  "usingComponents": {
-    "vui-course-list": "../courseList/vui-course-list"
-  }
+  "component": true
 }

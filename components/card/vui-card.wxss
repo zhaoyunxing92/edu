@@ -1,5 +1,6 @@
-.course-card {
+.vui-card {
   margin-top: 30rpx;
   background-color: #fff;
   padding: 25rpx;
 }
+

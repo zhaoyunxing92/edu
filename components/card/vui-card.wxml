@@ -1,4 +1,5 @@
-<view class='course-card'>
-   <slot name="title"/>
-   <slot wx:if="{{hsExtra}}" name="extra" class='more'/>
-</view>  
+<view class='vui-card'>
+  <slot name="title" />
+  <slot name="extra"/>
+  <slot name="content" />
+</view>
