@@ -1,2 +1,1 @@
-<!-- <text class="vui-icon icon-{{name}}"/> -->
-  <text class='vui-icon icon-browse' style="color:{{color}};height:{{size}}rpx;width:{{size}}rpx;"/>
+<text class='vui-icon icon-browse' style="color:{{color}};height:{{size}}rpx;width:{{size}}rpx;"/>

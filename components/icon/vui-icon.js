@@ -1,4 +1,3 @@
-// components/icon/vui-icon.js
 Component({
   properties: {
     // icon名称
