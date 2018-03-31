@@ -2,28 +2,28 @@
   <view class='course-item' wx:for="{{courses}}" wx:for-item="item" wx:key="{{item.id}}">
     <image bindtap="_navigateTo" data-path="/pages/courseDetails/courseDetails" data-item="{{item}}" src="{{item.cover}}" lazy-load="true" class="course-item-cover" />
     <view class='course-item-info'>
-    <text bindtap="_navigateTo" data-path="/pages/courseDetails/courseDetails" data-item="{{item}}" >
-      <text class='course-title'>{{item.name}}</text>
-      <!--统计数据  -->
-    <text class='course-stat'>
-       
-         <text class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
-           <text class='vui-icon icon-money'/>
-           <text>{{item.price==0?'免费':item.price}}</text>
-      </text>
+      <view bindtap="_navigateTo" data-path="/pages/courseDetails/courseDetails" data-item="{{item}}">
+        <text class='course-title'>{{item.name}}</text>
+        <!--统计数据  -->
+        <view class='course-stat'>
 
-      <text class='course-stat-item'>
-          <text class='vui-icon icon-browse'/>
-          <text>{{item.browse}}</text>
-      </text>
+          <view class='course-stat-item {{item.price ==0 ? "":"has-price"}}'>
+            <i name='money' />
+            <text>{{item.price==0?'免费':item.price}}</text>
+          </view>
 
-      <text class='course-stat-item'>
-         <text class='vui-icon icon-collect'/>
-         <text>{{item.collect}}</text>
-      </text>
+          <view class='course-stat-item'>
+            <i name='browse' />
+            <text>{{item.browse}}</text>
+          </view>
 
-     </text>
-    </text> 
+          <view class='course-stat-item'>
+            <i name='collect' />
+            <text>{{item.collect}}</text>
+          </view>
+
+        </view>
+      </view>
       <!--组织模块  -->
       <view class='course-org' bindtap="_navigateTo" data-path="/pages/org/org" data-item="{{item.org}}">
         <image src='{{item.org.cover}}' class='course-org-cover' />

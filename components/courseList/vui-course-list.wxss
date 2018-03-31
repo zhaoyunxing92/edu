@@ -51,6 +51,7 @@
   color: #ccc;
   width: 100%;
   display: inline-block;
+  line-height:90rpx;
 }
 
 .course-stat-item {
@@ -60,8 +61,13 @@
 
 /*组织  */
 
-.course-org, .course-stat, .course-title {
+/* .course-org, .course-stat, .course-title {
   height: 33%;
+} */
+
+.course-org, .course-stat {
+  line-height: 90rpx;
+  height: 80rpx;
 }
 
 /*组织名称  */
@@ -79,6 +85,7 @@
   width: 60rpx;
   border-radius: 30rpx;
   float: left;
+  margin-top: 15rpx;
 }
 
 .has-price {
