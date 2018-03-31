@@ -7,7 +7,10 @@ Component({
     // 课程
     courses: {
       type: Array,
-      value: []
+      value: [],
+      observer: function (newVal, oldVal) {
+
+       }
     }
   },
 
@@ -15,13 +18,24 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    isOk:false,
+    styles:{},
   },
-
+  attached: function () {
+    console.log(this.getData)
+    // this.setData({
+    //   nominateList: app.globalData.nominateList,
+    //   hotList: app.globalData.nominateList,
+    //   topData: app.globalData.swiperList,
+    // })
+  },
   /**
    * 组件的方法列表
    */
   methods: {
+    // setStyle(){
+    //   isOk: false
+    // },
     //跳转
     _navigateTo(env){
       let path = env.currentTarget.dataset.path;
