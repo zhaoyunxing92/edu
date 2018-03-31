@@ -1,5 +1,9 @@
 /*page设置默认背景  */
-page {
-  border-top: solid 1rpx #eee;   
+page { 
   background-color: #eee;
 }
+/*文本内容容器*/
+.container{
+  margin-bottom: 30rpx;
+}
+
