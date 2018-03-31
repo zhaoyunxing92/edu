@@ -1,101 +1,151 @@
-
-.course-detatils{
+.course-detatils {
   /* width: 100%; */
   overflow-x: hidden;
+  
 }
-.course-details-video,video{
- width: 100%;
- height: 380rpx;
-position: fixed;
-top: 0;
-  z-index: 10;
+page { 
+  background-color: #fff;
 }
-.video-shadow-line{
-box-shadow:20px 20px 50px 20px black;
-margin-top:381rpx;
-position:fixed;
-top:0rpx;
-width:100%;
-height:0.1rem;
+.course-details-video, video {
+  width: 100%;
+  height: 380rpx;
+  /* position: fixed; */
+  /* top: 0;
+  z-index: 10; */
+}
 
+/*视频播放菜单  */
+
+.vui-menu {
+  width: 100%;
+  height: 90rpx;
+   display: inline-block;
+  background-color: #fff;
+  line-height: 90rpx;
+  box-shadow: 0 1rpx 5px 1px #eee;
+  text-align: center;
+}
+.vui-menu-avtive{
+  color: #a3d900 !important;
+} 
+.vui-menu-item {
+  width: 33.3%;
+  float: left;
+  box-sizing: border-box;
+  color: #999;
+}
+
+.vui-menu-item:last-child {
+  border-right: none;
+}
+
+.course-content {
+  position: fixed;
+  bottom: 0rpx;
+  top: 470rpx;
+  width: 92%;
+  overflow-y: scroll;
+  left: 4%;
+  right: 4%;
+  overflow-x: hidden;
+  padding: 30rpx 0;
 }
 
 /*课程内容浮动  */
-.course-details-container{
-  padding: 15rpx 30rpx; 
+
+.course-details-container {
+  padding: 15rpx 30rpx;
   top: 382rpx;
   overflow-y: scroll;
   bottom: 100rpx;
   background-color: #fff;
-  position: absolute;  
+  position: absolute;
 }
+
 /*课程简介  */
-.course-details-summary{
+
+.course-details-summary {
   font-size: 30rpx;
   color: #666;
   margin: 10rpx auto;
 }
+
 /*课程统计 */
-.course-details-stat{
+
+.course-details-stat {
   color: #ccc;
   line-height: 110rpx;
   display: inline-block;
   width: 100%;
-
   font-size: 28rpx;
   text-align: center;
-  background-color:#f5f5f5;
-border-radius:12rpx;
-margin-top:15rpx;
-
+  background-color: #f5f5f5;
+  border-radius: 12rpx;
+  margin-top: 15rpx;
 }
+
 .course-stat-item {
   width: 25%;
 }
-/*课程发言列表  */
-.course-details-opinion{
-margin: 25rpx auto;
 
+/*课程发言列表  */
+
+.course-details-opinion {
+  margin: 25rpx auto;
 }
+
 /*课程发言用户  */
-.course-opinion-user{
+
+.course-opinion-user {
   height: 90rpx;
   line-height: 90rpx;
 }
+
 /*发言用户头像  */
-.course-opinion-user-cover{
+
+.course-opinion-user-cover {
   height: 70rpx;
   width: 70rpx;
   border-radius: 35rpx;
   margin-top: 12rpx;
   float: left;
 }
+
 /*发言用户作者  */
-.course-opinion-user-name{
-  margin:0rpx 18rpx;
-  color:#3c8dff;
+
+.course-opinion-user-name {
+  margin: 0rpx 18rpx;
+  color: #3c8dff;
   display: inline-block;
 }
+
 /*发言点赞数  */
-.course-opinion-user-like{
+
+.course-opinion-user-like {
   float: right;
   color: #ccc;
 }
+
 /*发言时间  */
-.course-opinion-user-time{
-color: #999;
-font-size: 28rpx;
+
+.course-opinion-user-time {
+  color: #999;
+  font-size: 28rpx;
 }
+
 /*发言内容  */
-.course-opinion-content{
+
+.course-opinion-content {
   padding: 8rpx 40rpx;
   font-size: 28rpx;
   color: #707070;
 }
+
 /*发言按钮  */
-.course-opinion-btn{
-  background-color:rgba(0, 0, 0, .2);
-  opacity: .2;
+
+.course-opinion-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0.2;
   width: 100%;
   position: fixed;
   bottom: 0;

@@ -3,20 +3,22 @@ const util = require('../../utils/util.js')
 const app = getApp()
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
     course:{},
     selected: true,
     selected1: false,
     courseOpinions:[],//课程发言
+    avtiveItem:0,//当前点击的菜单
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
+  // 切换item
+  clickItem: function (env){
+    let index = env.currentTarget.dataset.index;
+    this.setData({
+      avtiveItem: index
+    })  
+  },
+
   onLoad: function (options) {
-   
     let item;
     if (undefined !== options.item){
       item = JSON.parse(options.item);

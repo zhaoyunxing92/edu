@@ -1,51 +1,15 @@
 <view class="course-detatils">
-  <!-- <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" /> -->
-  
   <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" />
-  <text class="video-shadow-line" />
-  <view class='course-details-container'>
-    <!--课程介绍  -->
-    <view class="course-details-summary">
-      {{course.summary}}
+  <view class="vui-menu">
+    
+    <view wx:for="{{['简介','评论','课件']}}" wx:for-item="item" wx:key="{{index}}" bind:tap="clickItem" data-index="{{index}}" class="vui-menu-item {{avtiveItem==index?'vui-menu-avtive':''}}">{{item}}</view>
     </view>
-    <!--课程统计数据  -->
-    <text class='course-details-stat'>
-  <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>{{course.like}}
-  </text>
-    <text class='course-stat-item'>
-     <text class='vui-icon icon-collect'/>{{course.collect}}
-  </text>
-    <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>{{course.op}}
-  </text>
-    <text class='course-stat-item'>
-     <text class='vui-icon icon-recommend'/>{{course.share}}
-  </text>
-    </text>
+ 
 
 
-    <!--课程评论列表  -->
-    <view class='course-details-opinion'>
-
-      <view wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
-        <!-- 课程发言作者 -->
-        <view class='course-opinion-user'>
-          <image class='course-opinion-user-cover' src='{{user.cover}}' />
-          <text class='course-opinion-user-name'>{{user.name}}</text>
-          <text class='course-opinion-user-time'>{{user.time}}</text>
-          <text class='course-opinion-user-like'>  
-         <text class='vui-icon icon-collect'/>{{user.likes}}
-      </text>
-        </view>
-        <!--发言内容-->
-        <view class='course-opinion-content'>
-          {{user.content}}
-        </view>
-      </view>
-    </view>
+  <view class='course-content'>
+  一般情况下，“其它”同“其他”。但在使用上还是有一些小区别的。正常情况下，“其它”只用于事情。另外，在人与动物方面，也有区别。如我们说其他同志而不能说其它同志；再如，我们说其它动物，而不说其他动物（拟人化的童话故事、小说除外）。
+    一般情况下，“其它”同“其他”。但在使用上还是有一些小区别的。正常情况下，“其它”只用于事情。另外，在人与动物方面，也有区别。如我们说其他同志而不能说其它同志；再如，我们说其它动物，而不说其他动物（拟人化的童话故事、小说除外）。
+      一般情况下，“其它”同“其他”。但在使用上还是有一些小区别的。正常情况下，“其它”只用于事情。另外，在人与动物方面，也有区别。如我们说其他同志而不能说其它同志；再如，我们说其它动物，而不说其他动物（拟人化的童话故事、小说除外）。 
   </view>
-  <text class='course-opinion-btn'>
-  发言
-  </text>
 </view>
