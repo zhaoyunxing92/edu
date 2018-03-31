@@ -54,6 +54,10 @@ App({
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "德清地税"
+        }, "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
         }
       }, {
         "id": 1002,
@@ -70,6 +74,11 @@ App({
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "新昌地税"
+        },
+        "author":{
+          "id":1000,
+          "name":"sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
         }
       }, {
         "id": 1003,
@@ -86,6 +95,10 @@ App({
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
+        }, "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
         }
       }
     ],
@@ -223,7 +236,12 @@ App({
         "like":1580,
         "collect":587,
         "op":87,
-        "share":79
+        "share": 79, 
+        "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        }
       },
       {
         "id": 10002,
@@ -234,7 +252,12 @@ App({
         "like": 10,
         "collect": 87,
         "op": 7487,
-        "share": 9879
+        "share": 9879,
+        "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        }
       },
       {
         "id": 10003,
@@ -245,7 +268,12 @@ App({
         "like": 8810,
         "collect": 87,
         "op": 7487,
-        "share": 9879
+        "share": 9879,
+        "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        }
       },
       {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
@@ -256,7 +284,12 @@ App({
         "like": 8810,
         "collect": 87,
         "op": 7487,
-        "share": 9879
+        "share": 9879,
+        "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        }
       }, {
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
         "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
@@ -266,7 +299,12 @@ App({
         "like": 8810,
         "collect": 87,
         "op": 7487,
-        "share": 9879
+        "share": 9879,
+        "author": {
+          "id": 1000,
+          "name": "sunny",
+          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        }
       }
     ],
     // 课程发言数据

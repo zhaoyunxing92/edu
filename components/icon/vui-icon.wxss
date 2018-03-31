@@ -27,7 +27,6 @@
 /*最火  */
 .icon-hot:before {
   content: "\e902";
-  color: red;
 }
 /*最新  */
 .icon-new:before {
@@ -52,5 +51,4 @@
 /*推荐  */
 .icon-recommend:before {
   content: "\e908";
-  color: #29bafe;
 }

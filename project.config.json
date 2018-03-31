@@ -21,13 +21,54 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/me/me",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "动态",
+					"pathName": "pages/dynamic/dynamic",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发现",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "课程",
+					"pathName": "pages/course/course",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "课程播放",
+					"pathName": "pages/courseDetails/courseDetails",
+					"query": "item={\"id\":10001,\"cover\":\"http://static.dingtalk.com/media/lADOpdce-M0CMM0C7A_748_560.jpg\",\"playUrl\":\"http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8\",\"name\":\"丁税宝宣传视频\",\"summary\":\"《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。\",\"like\":1580,\"collect\":587,\"op\":87,\"share\":79,\"author\":{\"id\":1000,\"name\":\"sunny\",\"cover\":\"http://static.dingtalk.com/media/lADOpdce-M0CMM0C7A_748_560.jpg\"}}"
+				},
+				{
+					"id": -1,
+					"name": "推荐课程",
+					"pathName": "pages/nominate/nominate",
+					"query": ""
+				}
+			]
 		}
 	}
 }
