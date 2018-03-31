@@ -7,9 +7,7 @@
     "pages/course/course",
     "pages/org/org",
     "pages/search/search",
-    "pages/nominate/nominate",
-    "components/video/vui-video",
-    "components/i/vui-i"
+    "pages/nominate/nominate"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
