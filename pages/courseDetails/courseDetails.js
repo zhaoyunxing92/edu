@@ -4,20 +4,22 @@ const app = getApp()
 Page({
 
   data: {
-    course:{},
+    course: {},
     selected: true,
     selected1: false,
-    courseOpinions:[],//课程发言
-    courseFiles:[],//课程附件
-    avtiveItem:1,//当前点击的菜单
+    courseOpinions: [],//课程发言
+    courseFiles: [],//课程附件
+    avtiveItem: 1,//当前点击的菜单
+    opinionMsg: "",//发言信息
   },
+
   // 切换item
-  clickItem: function (env){
+  clickItem: function (env) {
     let index = env.currentTarget.dataset.index;
     this.setData({ avtiveItem: index });
-  },  
+  },
   //打开文件
-  openFile: function (env){
+  openFile: function (env) {
     let url = env.currentTarget.dataset.url;
     wx.downloadFile({
       url: url,
@@ -33,15 +35,47 @@ Page({
       }
     })
   },
-
+  //绑定发言输入框
+  bindOpinionMsg: function (e) {
+     this.setData({
+       opinionMsg: e.detail.value
+     })
+  },
+  // 发言
+  sendOpinions: function () {
+    let msg = this.data.opinionMsg;
+    if (undefined == msg || '' == msg) {
+      wx.showToast({
+        title: '说点什么再发送吧',
+        icon: 'none',
+        duration: 2000
+      })
+      return;
+    }
+    let ops = this.data.courseOpinions;
+    ops.unshift(
+      {
+        "id": "1",
+        "name": "sunny",
+        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "content": msg,
+        "likes": 0,
+        "time": util.formatTime(new Date())
+      }
+    );
+    this.setData({
+      courseOpinions: ops,
+      opinionMsg: ''
+    });
+  },
   onLoad: function (options) {
     let item;
-    if (undefined !== options.item){
+    if (undefined !== options.item) {
       item = JSON.parse(options.item);
       this.setData({
         course: item
       })
-    } 
+    }
     wx.setNavigationBarTitle({
       title: util.getValue(item, 'name', '播放课程')
     })
@@ -65,41 +99,41 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-  
+
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-  
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-  
+
   },
 
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+
   }
 })

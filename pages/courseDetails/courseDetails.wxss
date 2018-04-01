@@ -189,10 +189,6 @@ page {
   float: left;
 }
 
-.course-opinion-placeholder-class {
-  color: #c1c1c1;
-}
-
 /*发言icon  */
 
 .opinion-icon {
