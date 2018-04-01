@@ -1,23 +1,20 @@
 .course-detatils {
-  /* width: 100%; */
   overflow-x: hidden;
 }
-
 page {
   background-color: #fff;
 }
-
 .course-details-video, video {
   width: 100%;
   height: 380rpx;
 }
-
 /*视频播放导航菜单  */
 .vui-menu {
   width: 100%;
   height: 90rpx;
   line-height: 80rpx;
   display: inline-block;
+  background-color: #fff;
   box-shadow: 0 1rpx 5px 1px #eee;
   text-align: center;
   margin-top: -8rpx;
@@ -54,7 +51,7 @@ page {
 
 .course-content {
   position: fixed;
-  bottom: 0rpx;
+  bottom: 80rpx;
   top: 470rpx;
   width: 92%;
   overflow-y: scroll;
@@ -82,15 +79,19 @@ page {
   float: left;
 }
 
-/*名称 */
-.course-author-name {
-  margin: -25rpx 18rpx;
+.course-author-name,.course-opinion-user-name {
   color: #3c8dff;
   display: inline-block;
 }
 
+/*课程作者名称 */
+.course-author-name {
+  margin: -25rpx 18rpx;
+}
+
 .vui-card-extra {
   margin: 28rpx 0;
+  color: #999;
 }
 
 
@@ -116,42 +117,24 @@ page {
   margin: 0 0 15rpx 0;
 }
 
-/*课程发言列表  */
-
-.course-details-opinion {
-  margin: 25rpx auto;
-}
-
 /*课程发言用户  */
-
 .course-opinion-user {
   height: 90rpx;
   line-height: 90rpx;
 }
 
 /*发言用户头像  */
-
 .course-opinion-user-cover {
-  height: 70rpx;
-  width: 70rpx;
-  border-radius: 35rpx;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 40rpx;
   margin-top: 12rpx;
   float: left;
 }
 
 /*发言用户作者  */
-
 .course-opinion-user-name {
-  margin: 0rpx 18rpx;
-  color: #3c8dff;
-  display: inline-block;
-}
-
-/*发言点赞数  */
-
-.course-opinion-user-like {
-  float: right;
-  color: #ccc;
+  margin: 0rpx 18rpx;  
 }
 
 /*发言时间  */
@@ -162,21 +145,21 @@ page {
 }
 
 /*发言内容  */
-
-.course-opinion-content {
-  padding: 8rpx 40rpx;
+.course-opinion-content { 
   font-size: 28rpx;
   color: #707070;
+  margin-top: 15rpx;
 }
 
 /*发言按钮  */
-
 .course-opinion-btn {
-  background-color: rgba(0, 0, 0, 0.2);
-  opacity: 0.2;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left:-29rpx;
+  opacity: 0.8;
   width: 100%;
   position: fixed;
   bottom: 0;
   height: 100rpx;
   box-shadow: 0 -2px 5px -1px #999;
+  color: #fff;
 }

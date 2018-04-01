@@ -313,7 +313,7 @@ App({
         "id":"1",
         "name":"sunny",
         "cover":"https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content":"尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content":"尊敬的纳税人，本次直播已经结束",
         "likes":8,
         "time":"2018.02.25"
       },

@@ -25,51 +25,51 @@
         <view slot="title" class="vui-menu course-stat">
           <!-- <view wx:for="{{['点赞','评论','收藏','分享']}}" wx:for-item="item" wx:key="{{index}}" class="vui-menu-item-4">{{item}}</view> -->
           <view class='vui-menu-item-4'>
-           <i name='browse' />{{course.like}}
+            <i name='browse' />{{course.like}}
           </view>
 
           <view class='vui-menu-item-4'>
-           <i name='collect' />{{course.op}}
+            <i name='collect' />{{course.op}}
           </view>
 
           <view class='vui-menu-item-4'>
-           <i name='money' />{{course.collect}}
+            <i name='money' />{{course.collect}}
           </view>
 
           <view class='vui-menu-item-4'>
-           <i name='money' />{{course.share}}
+            <i name='money' />{{course.share}}
           </view>
 
         </view>
       </card>
       <!--课程简介  -->
       <view class='course-summary'>
-           {{course.summary}}
+        {{course.summary}}
       </view>
     </view>
-    
+
     <!--评论 -->
-     <view hidden="{{avtiveItem!==1}}" class='course-details-opinion'>
-      <view wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
-        <!-- 课程发言作者 -->
-        <view class='course-opinion-user'>
+    <view hidden="{{avtiveItem!==1}}" class='course-details-opinion'>
+      <card wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
+        <view slot="title" class='course-opinion-user'>
           <image class='course-opinion-user-cover' src='{{user.cover}}' />
           <text class='course-opinion-user-name'>{{user.name}}</text>
           <text class='course-opinion-user-time'>{{user.time}}</text>
-          <text class='course-opinion-user-like'>  
-         <text class='vui-icon icon-collect'/>{{user.likes}}
-      </text>
+          <view slot="extra" class='vui-card-extra'><i name="browse"/>{{user.likes}}</view>
         </view>
         <!--发言内容-->
-        <view class='course-opinion-content'>
+        <view slot="content" class='course-opinion-content'>
           {{user.content}}
         </view>
-      </view>
-    </view> 
+      </card>
+     <text class='course-opinion-btn'>
+  发言
+  </text>
+    </view>
 
     <!-- 课件 -->
     <view hidden="{{avtiveItem!==2}}">
-    课件{{avtiveItem}} 
+      课件{{avtiveItem}}
     </view>
 
   </view>
