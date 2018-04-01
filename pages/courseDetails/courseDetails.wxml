@@ -64,7 +64,7 @@
         </view>
       </card>
       <view class='course-opinion-btn'>
-         <input class='opinion-btn-input' placeholder="我要发言" placeholder-class='course-opinion-placeholder-class'/>
+         <input placeholder="我要发言" class='opinion-btn-input' placeholder-class="course-opinion-placeholder-class"/>
       </view>
     </view>
 

@@ -1,14 +1,18 @@
 .course-detatils {
   overflow-x: hidden;
 }
+
 page {
   background-color: #fff;
 }
+
 .course-details-video, video {
   width: 100%;
   height: 380rpx;
 }
+
 /*视频播放导航菜单  */
+
 .vui-menu {
   width: 100%;
   height: 90rpx;
@@ -48,6 +52,7 @@ page {
 }
 
 /*内容区  */
+
 .course-content {
   position: fixed;
   bottom: 100rpx;
@@ -58,10 +63,11 @@ page {
   right: 4%;
   overflow-x: hidden;
   padding-bottom: 30rpx;
-  z-index: -10
+  z-index: -10;
 }
 
 /*课程作者  */
+
 .course-author {
   display: inline-block;
   width: 100%;
@@ -70,6 +76,7 @@ page {
 }
 
 /*头像  */
+
 .course-author-cover {
   width: 100rpx;
   height: 100rpx;
@@ -77,12 +84,13 @@ page {
   float: left;
 }
 
-.course-author-name,.course-opinion-user-name {
+.course-author-name, .course-opinion-user-name {
   color: #3c8dff;
   display: inline-block;
 }
 
 /*课程作者名称 */
+
 .course-author-name {
   margin: -25rpx 18rpx;
 }
@@ -93,6 +101,7 @@ page {
 }
 
 /*课程简介  */
+
 .course-summary {
   font-size: 30rpx;
   color: #666;
@@ -100,6 +109,7 @@ page {
 }
 
 /*课程统计 */
+
 .course-stat {
   color: #ccc;
   height: 100rpx;
@@ -114,12 +124,14 @@ page {
 }
 
 /*课程发言用户  */
+
 .course-opinion-user {
   height: 90rpx;
   line-height: 90rpx;
 }
 
 /*发言用户头像  */
+
 .course-opinion-user-cover {
   height: 80rpx;
   width: 80rpx;
@@ -129,46 +141,54 @@ page {
 }
 
 /*发言用户作者  */
+
 .course-opinion-user-name {
-  margin: 0rpx 18rpx;  
+  margin: 0rpx 18rpx;
 }
 
 /*发言时间  */
+
 .course-opinion-user-time {
   color: #999;
   font-size: 28rpx;
 }
 
 /*发言内容  */
-.course-opinion-content { 
+
+.course-opinion-content {
   font-size: 28rpx;
   color: #707070;
   margin-top: 15rpx;
 }
 
 /*发言按钮  */
+
 .course-opinion-btn {
-   background-color: rgba(0, 0, 0, 0.5); 
-  margin-left:-29rpx;
-   opacity: 0.8; 
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: -29rpx;
+  opacity: 0.2;
   width: 100%;
   position: fixed;
   bottom: 0;
   height: 100rpx;
   box-shadow: 0 -2px 5px -1px #999;
   color: #fff;
+  margin-top: -30rpx;
 }
+
 /*发言输入框  */
-.opinion-btn-input{
+
+.opinion-btn-input {
   border: solid 1rpx #eee;
   height: 70rpx;
   line-height: 70rpx;
-  width: 60%;
-  border-radius: 35rpx;
+  width: 80%;
+  border-radius: 10rpx;
   margin: 15rpx 15rpx;
-  padding:0 25rpx;
+  padding: 0 25rpx;
   font-size: 28rpx;
 }
-.course-opinion-placeholder-class{
+
+.course-opinion-placeholder-class {
   color: #eee;
 }
