@@ -21,7 +21,7 @@
           {{course.author.name}}
           </text>
           <view slot="extra" class='vui-card-extra'>关注
-            <i name="more" />
+            <i name="add" />
           </view>
         </view>
       </card>
@@ -30,19 +30,19 @@
         <view slot="title" class="vui-menu course-stat">
           <!-- <view wx:for="{{['点赞','评论','收藏','分享']}}" wx:for-item="item" wx:key="{{index}}" class="vui-menu-item-4">{{item}}</view> -->
           <view class='vui-menu-item-4'>
-            <i name='browse' />{{course.like}}
+            <i name='like' />{{course.like}}
           </view>
 
           <view class='vui-menu-item-4'>
-            <i name='collect' />{{course.op}}
+            <i name='info' />{{course.op}}
           </view>
 
           <view class='vui-menu-item-4'>
-            <i name='money' />{{course.collect}}
+            <i name='collect' />{{course.collect}}
           </view>
 
           <view class='vui-menu-item-4'>
-            <i name='money' />{{course.share}}
+            <i name='share' />{{course.share}}
           </view>
 
         </view>
@@ -61,7 +61,7 @@
           <text class='course-opinion-user-name'>{{user.name}}</text>
           <text class='course-opinion-user-time'>{{user.time}}</text>
           <view slot="extra" class='vui-card-extra'>
-            <i name="browse" />{{user.likes}}</view>
+            <i name="like" />{{user.likes}}</view>
         </view>
         <!--发言内容-->
         <view slot="content" class='course-opinion-content'>
@@ -70,7 +70,7 @@
       </card>
       <view class='course-opinion-btn'>
          <input placeholder="我要发言" class='opinion-btn-input' placeholder-class="course-opinion-placeholder-class"/>
-         <i class='opinion-icon' name="browse" color="#999" size='50'/>
+         <i class='opinion-icon' name="send" color="#999" size='50'/>
       </view>
     </view>
 
