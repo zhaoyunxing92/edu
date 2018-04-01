@@ -13,9 +13,7 @@ Page({
   // 切换item
   clickItem: function (env){
     let index = env.currentTarget.dataset.index;
-    this.setData({
-      avtiveItem: index
-    })  
+    this.setData({ avtiveItem: index });
   },
 
   onLoad: function (options) {

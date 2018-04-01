@@ -1,14 +1,14 @@
 <view class="course-detatils">
   <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" />
   <view class="vui-menu">
-    <view wx:for="{{['简介','评论','课件']}}" wx:for-item="item" wx:key="{{index}}" bind:tap="clickItem" data-index="{{index}}" class="vui-menu-item {{avtiveItem==index?'vui-menu-avtive':''}}">{{item}}</view>
+    <view wx:for="{{['简介','评论','课件']}}" wx:for-item="item" wx:key="{{index}}" bind:tap="clickItem" data-index="{{index}}" class="vui-menu-item-3 {{avtiveItem==index?'vui-menu-avtive':''}}">{{item}}</view>
   </view>
+
   <!--课程内容区  -->
   <view class='course-content'>
     <!--简介  -->
-    <view>
+    <view hidden="{{avtiveItem!==0}}">
       <!--作者 -->
-
       <card wx:if="{{course.author}}" class='course-author'>
         <view slot="title" class='vui-card-title'>
           <image src='{{course.author.cover}}' class='course-author-cover' />
@@ -20,8 +20,6 @@
           </view>
         </view>
       </card>
-
-
       <!--课程统计  -->
       <card>
         <view slot="title" class="vui-menu course-stat">
@@ -48,6 +46,29 @@
       <view class='course-summary'>
            {{course.summary}}
       </view>
+    </view>
+    
+    <!--评论 -->
+     <view hidden="{{avtiveItem!==1}}">
+     
+       <card class='course-author'>
+        <view slot="title" class='vui-card-title'>
+          <image src='{{course.author.cover}}' class='course-author-cover' />
+          <text class='course-author-name'>
+          {{course.author.name}}
+          </text>
+          <view slot="extra" class='vui-card-extra'>关注
+            <i name="more" />
+          </view>
+        </view>
+      </card>
+    </view> 
+
+    <!-- 课件 -->
+  
+   
+    <view hidden="{{avtiveItem!==2}}">
+    课件{{avtiveItem}} 
     </view>
 
   </view>
