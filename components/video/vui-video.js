@@ -21,7 +21,7 @@ Component({
     // 视频封面
     cover: { 
       type: String,
-      value: 'https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg'
+      value: ''
     },
     // 弹窗确认按钮文字
     confirmText: {
