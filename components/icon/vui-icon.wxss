@@ -30,7 +30,6 @@
 }
 .icon-collect:before {
   content: "\e900";
-  color: #515151;
 }
 .icon-money:before {
   content: "\e901";
