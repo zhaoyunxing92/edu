@@ -1,5 +1,5 @@
 <view class="course-detatils">
-  <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" />
+  <vui-video class='course-details-video' id="video" cover='{{course.cover}}' url="{{course.playUrl}}" />
   <view class="vui-menu">
      <view bind:tap="clickItem" data-index="1" class="vui-menu-item-3 {{avtiveItem==1?'vui-menu-avtive':''}}">简介</view>
      <view bind:tap="clickItem" data-index="2" class="vui-menu-item-3 {{avtiveItem==2?'vui-menu-avtive':''}}">评论
@@ -13,6 +13,7 @@
   <view class='course-content'>
     <!--简介  -->
     <view hidden="{{avtiveItem!=1}}">
+    
       <!--作者 -->
       <card wx:if="{{course.author}}" class='course-author'>
         <view slot="title" class='vui-card-title'>
@@ -25,6 +26,8 @@
           </view>
         </view>
       </card>
+         <!--课程标题  -->
+      <text class='course-title'>{{course.name}}</text>
       <!--课程统计  -->
       <card>
         <view slot="title" class="vui-menu course-stat">

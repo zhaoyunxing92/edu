@@ -85,6 +85,14 @@ page {
   color: #3c8dff;
   display: inline-block;
 }
+/*课程标题  */
+.course-title{
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  width: 100%;
+  display: inline-block;
+  color: #333
+}
 
 /*课程作者名称 */
 
@@ -100,8 +108,8 @@ page {
 /*课程简介  */
 
 .course-summary {
-  font-size: 30rpx;
-  color: #666;
+  font-size: 28rpx;
+  color: #999;
   text-indent: 40rpx;
 }
 
