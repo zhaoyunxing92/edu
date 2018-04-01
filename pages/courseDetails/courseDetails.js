@@ -19,11 +19,6 @@ Page({
   //打开文件
   openFile: function (env){
     let url = env.currentTarget.dataset.url;
-    wx.showToast({
-      title: '成功',
-      icon: 'success',
-      duration: 1000
-    })
     wx.downloadFile({
       url: url,
       success: function (res) {
