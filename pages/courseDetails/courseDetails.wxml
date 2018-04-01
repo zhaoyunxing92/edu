@@ -65,6 +65,7 @@
       </card>
       <view class='course-opinion-btn'>
          <input placeholder="我要发言" class='opinion-btn-input' placeholder-class="course-opinion-placeholder-class"/>
+         <i class='opinion-icon' name="browse" color="red" size='50'/>
       </view>
     </view>
 

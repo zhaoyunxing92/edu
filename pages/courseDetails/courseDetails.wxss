@@ -164,31 +164,38 @@ page {
 /*发言按钮  */
 
 .course-opinion-btn {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fafafa;
   margin-left: -29rpx;
-  opacity: 0.2;
   width: 100%;
   position: fixed;
   bottom: 0;
   height: 100rpx;
-  box-shadow: 0 -2px 5px -1px #999;
-  color: #fff;
-  margin-top: -30rpx;
+  box-shadow: 0 -2px 5px -1px #d7d7d7;
 }
 
 /*发言输入框  */
 
 .opinion-btn-input {
-  border: solid 1rpx #eee;
+  border: solid 1rpx #e7e7e7;
   height: 70rpx;
   line-height: 70rpx;
   width: 80%;
-  border-radius: 10rpx;
+  border-radius: 35rpx;
   margin: 15rpx 15rpx;
   padding: 0 25rpx;
   font-size: 28rpx;
+  background-color: #f4f4f4;
+  color: #707070;
+  float: left;
 }
 
 .course-opinion-placeholder-class {
-  color: #eee;
+  color: #c1c1c1;
+}
+
+/*发言icon  */
+
+.opinion-icon {
+  display: inline-block;
+  margin: 20rpx 0 0 -5rpx;
 }
