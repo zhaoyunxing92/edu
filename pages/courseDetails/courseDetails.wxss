@@ -102,6 +102,7 @@ page {
 /*课程统计 */
 .course-stat {
   color: #ccc;
+  height:100rpx;
   line-height: 110rpx;
   display: inline-block;
   width: 100%;
