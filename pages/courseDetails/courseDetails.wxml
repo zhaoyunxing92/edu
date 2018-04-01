@@ -9,7 +9,7 @@
     <view>
       <!--作者 -->
 
-      <card class='course-author'>
+      <card wx:if="{{course.author}}" class='course-author'>
         <view slot="title" class='vui-card-title'>
           <image src='{{course.author.cover}}' class='course-author-cover' />
           <text class='course-author-name'>
