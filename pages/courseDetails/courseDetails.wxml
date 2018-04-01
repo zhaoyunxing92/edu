@@ -72,7 +72,7 @@
         </view>
       </card>
       <view bindreset="cleanInput" class='course-opinion-btn'>
-         <input placeholder="我要发言" value='{{opinionMsg}}' confirm-type='send' bindconfirm='sendOpinions' bindblur="bindOpinionMsg" class='opinion-btn-input' placeholder-style="color: #c1c1c1;"/>
+         <input placeholder="我要发言" value='{{opinionMsg}}' confirm-type='send' bindconfirm='sendOpinions' bindinput="bindOpinionMsg" class='opinion-btn-input' placeholder-style="color: #c1c1c1;"/>
          <i class='opinion-icon' bind:tap="sendOpinions" name="send" color="#999" size='50'/>
       </view>
     </view>
