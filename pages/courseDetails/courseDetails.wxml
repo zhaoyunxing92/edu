@@ -1,13 +1,18 @@
 <view class="course-detatils">
   <vui-video class='course-details-video' id="video" url="{{course.playUrl}}" />
   <view class="vui-menu">
-    <view wx:for="{{['简介','评论','课件']}}" wx:for-item="item" wx:key="{{index}}" bind:tap="clickItem" data-index="{{index}}" class="vui-menu-item-3 {{avtiveItem==index?'vui-menu-avtive':''}}">{{item}}</view>
+     <view bind:tap="clickItem" data-index="1" class="vui-menu-item-3 {{avtiveItem==1?'vui-menu-avtive':''}}">简介</view>
+     <view bind:tap="clickItem" data-index="2" class="vui-menu-item-3 {{avtiveItem==2?'vui-menu-avtive':''}}">评论
+     {{courseOpinions.length>0?courseOpinions.length:''}}
+     </view>
+     <view bind:tap="clickItem" data-index="3" class="vui-menu-item-3 {{avtiveItem==3?'vui-menu-avtive':''}}">课件
+      {{courseFiles.length>0?courseFiles.length:''}}
+     </view>
   </view>
-
   <!--课程内容区  -->
   <view class='course-content'>
     <!--简介  -->
-    <view hidden="{{avtiveItem!==0}}">
+    <view hidden="{{avtiveItem!=1}}">
       <!--作者 -->
       <card wx:if="{{course.author}}" class='course-author'>
         <view slot="title" class='vui-card-title'>
@@ -49,7 +54,7 @@
     </view>
 
     <!--评论 -->
-    <view hidden="{{avtiveItem!==1}}" class='course-details-opinion'>
+    <view hidden="{{avtiveItem!=2}}" class='course-details-opinion'>
       <card wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
         <view slot="title" class='course-opinion-user'>
           <image class='course-opinion-user-cover' src='{{user.cover}}' />
@@ -65,13 +70,17 @@
       </card>
       <view class='course-opinion-btn'>
          <input placeholder="我要发言" class='opinion-btn-input' placeholder-class="course-opinion-placeholder-class"/>
-         <i class='opinion-icon' name="browse" color="red" size='50'/>
+         <i class='opinion-icon' name="browse" color="#999" size='50'/>
       </view>
     </view>
 
     <!-- 课件 -->
-    <view hidden="{{avtiveItem!==2}}">
-      课件{{avtiveItem}}
+    <view hidden="{{avtiveItem!=3}}">
+        <card wx:for="{{courseFiles}}" wx:for-item="file" wx:key="{{index}}">
+        <view bind:tap="openFile" data-url="{{file.url}}" slot="title">
+          <text class='course-opinion-user-name'>{{file.name}}</text>
+        </view>
+      </card>
     </view>
 
   </view>

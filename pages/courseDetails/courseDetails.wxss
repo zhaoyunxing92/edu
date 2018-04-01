@@ -19,7 +19,7 @@ page {
   line-height: 80rpx;
   display: inline-block;
   background-color: #fff;
-  box-shadow: 0 1rpx 5px 1px #eee;
+  box-shadow: 0 2rpx 10rpx 0 #d7d7d7;
   text-align: center;
   margin-top: -8rpx;
 }
@@ -52,10 +52,9 @@ page {
 }
 
 /*内容区  */
-
 .course-content {
   position: fixed;
-  bottom: 100rpx;
+  bottom: 15rpx;
   top: 470rpx;
   width: 92%;
   overflow-y: scroll;
@@ -67,7 +66,6 @@ page {
 }
 
 /*课程作者  */
-
 .course-author {
   display: inline-block;
   width: 100%;
@@ -76,7 +74,6 @@ page {
 }
 
 /*头像  */
-
 .course-author-cover {
   width: 100rpx;
   height: 100rpx;
@@ -123,6 +120,10 @@ page {
   margin: 0 0 15rpx 0;
 }
 
+/*发言模板  */
+.course-details-opinion{
+  margin-bottom: 55rpx;
+}
 /*课程发言用户  */
 
 .course-opinion-user {
@@ -174,7 +175,6 @@ page {
 }
 
 /*发言输入框  */
-
 .opinion-btn-input {
   border: solid 1rpx #e7e7e7;
   height: 70rpx;
@@ -197,5 +197,5 @@ page {
 
 .opinion-icon {
   display: inline-block;
-  margin: 20rpx 0 0 -5rpx;
+  margin: 23rpx 0 0 -5rpx;
 }

@@ -2,7 +2,6 @@
   padding: 15rpx;
   background-color: #fff;
 }
-
 .course-item {
   display: block;
   border-bottom: solid 1rpx #f5f5f5;

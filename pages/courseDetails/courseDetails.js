@@ -8,12 +8,35 @@ Page({
     selected: true,
     selected1: false,
     courseOpinions:[],//课程发言
-    avtiveItem:0,//当前点击的菜单
+    courseFiles:[],//课程附件
+    avtiveItem:1,//当前点击的菜单
   },
   // 切换item
   clickItem: function (env){
     let index = env.currentTarget.dataset.index;
     this.setData({ avtiveItem: index });
+  },  
+  //打开文件
+  openFile: function (env){
+    let url = env.currentTarget.dataset.url;
+    wx.showToast({
+      title: '成功',
+      icon: 'success',
+      duration: 1000
+    })
+    wx.downloadFile({
+      url: url,
+      success: function (res) {
+        var filePath = res.tempFilePath;
+        console.log(filePath);
+        wx.openDocument({
+          filePath: filePath,
+          success: function (res) {
+            console.log('打开文档成功')
+          }
+        })
+      }
+    })
   },
 
   onLoad: function (options) {
@@ -22,7 +45,7 @@ Page({
       item = JSON.parse(options.item);
       this.setData({
         course: item
-      })    
+      })
     } 
     wx.setNavigationBarTitle({
       title: util.getValue(item, 'name', '播放课程')
@@ -30,7 +53,8 @@ Page({
 
     //  设置发言数据
     this.setData({
-      courseOpinions: app.globalData.courseOpinions
+      courseOpinions: app.globalData.courseOpinions,
+      courseFiles: app.globalData.courseFiles
     })
   },
 
