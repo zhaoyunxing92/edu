@@ -48,10 +48,9 @@ page {
 }
 
 /*内容区  */
-
 .course-content {
   position: fixed;
-  bottom: 80rpx;
+  bottom: 100rpx;
   top: 470rpx;
   width: 92%;
   overflow-y: scroll;
@@ -63,7 +62,6 @@ page {
 }
 
 /*课程作者  */
-
 .course-author {
   display: inline-block;
   width: 100%;
@@ -94,7 +92,6 @@ page {
   color: #999;
 }
 
-
 /*课程简介  */
 .course-summary {
   font-size: 30rpx;
@@ -103,7 +100,6 @@ page {
 }
 
 /*课程统计 */
-
 .course-stat {
   color: #ccc;
   height: 100rpx;
@@ -138,7 +134,6 @@ page {
 }
 
 /*发言时间  */
-
 .course-opinion-user-time {
   color: #999;
   font-size: 28rpx;
@@ -153,13 +148,27 @@ page {
 
 /*发言按钮  */
 .course-opinion-btn {
-  background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(0, 0, 0, 0.5); 
   margin-left:-29rpx;
-  opacity: 0.8;
+   opacity: 0.8; 
   width: 100%;
   position: fixed;
   bottom: 0;
   height: 100rpx;
   box-shadow: 0 -2px 5px -1px #999;
   color: #fff;
+}
+/*发言输入框  */
+.opinion-btn-input{
+  border: solid 1rpx #eee;
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 60%;
+  border-radius: 35rpx;
+  margin: 15rpx 15rpx;
+  padding:0 25rpx;
+  font-size: 28rpx;
+}
+.course-opinion-placeholder-class{
+  color: #eee;
 }

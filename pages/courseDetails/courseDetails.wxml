@@ -55,16 +55,17 @@
           <image class='course-opinion-user-cover' src='{{user.cover}}' />
           <text class='course-opinion-user-name'>{{user.name}}</text>
           <text class='course-opinion-user-time'>{{user.time}}</text>
-          <view slot="extra" class='vui-card-extra'><i name="browse"/>{{user.likes}}</view>
+          <view slot="extra" class='vui-card-extra'>
+            <i name="browse" />{{user.likes}}</view>
         </view>
         <!--发言内容-->
         <view slot="content" class='course-opinion-content'>
           {{user.content}}
         </view>
       </card>
-     <text class='course-opinion-btn'>
-  发言
-  </text>
+      <view class='course-opinion-btn'>
+         <input class='opinion-btn-input' placeholder="我要发言" placeholder-class='course-opinion-placeholder-class'/>
+      </view>
     </view>
 
     <!-- 课件 -->
