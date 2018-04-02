@@ -24,10 +24,10 @@
 
         </view>
       </view>
-      <!--组织模块  -->
-      <view class='course-org' bindtap="_navigateTo" data-path="/pages/org/org" data-item="{{item.org}}">
-        <image src='{{item.org.cover}}' class='course-org-cover' />
-        <text class='course-org-name'>{{item.org.name}}</text>
+      <!--课程作者 -->
+      <view class='course-author' bindtap="_navigateTo" data-path="pages/user/user" data-item="{{item.author}}">
+        <image src='{{item.author.cover}}' class='course-author-cover' />
+        <view class='course-author-name'>{{item.author.name}}</view>
       </view>
     </view>
   </view>

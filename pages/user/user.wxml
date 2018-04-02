@@ -6,20 +6,20 @@
           {{user.name}}
           </text>
       <view slot="extra" class='vui-card-extra'>关注
-        <i name="add" />
+        <i name="following" />
       </view>
     </view>
   </card>
   <!--菜单  -->
   <view class="vui-menu">
     <view bind:tap="clickItem" data-index="1" class="vui-menu-item-5 {{avtiveItem==1?'vui-menu-avtive':''}}">
-      <i name="add" />动态
+      <i name="info" />动态
     </view>
     <view bind:tap="clickItem" data-index="2" class="vui-menu-item-5 {{avtiveItem==2?'vui-menu-avtive':''}}">
-      <i name="add" />课程
+      <i name="book" />课程
     </view>
     <view bind:tap="clickItem" data-index="3" class="vui-menu-item-5 {{avtiveItem==3?'vui-menu-avtive':''}}">
-      <i name="fans" />粉丝
+      <i name="fans" color="red"/>粉丝
     </view>
     <view bind:tap="clickItem" data-index="4" class="vui-menu-item-5 {{avtiveItem==4?'vui-menu-avtive':''}}">
       <i name="collect" />收藏

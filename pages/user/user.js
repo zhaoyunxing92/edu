@@ -1,24 +1,28 @@
-const app = getApp()
+const util = require('../../utils/util.js')
 Page({
+
   // 切换item
   clickItem: function (env) {
     let index = env.currentTarget.dataset.index;
     this.setData({ avtiveItem: index });
   },
   data: {
-    user: [],
+  user:[],//用户主页
+  avtiveItem: 1,//当前点击的菜单
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '我的'
-    })
-    //课程列表
+    //  设置发言数据
+    let item = JSON.parse(options.item);
+    console.log(item)
     this.setData({
-      user: { id: 1000, name: "sunny", cover: "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png" }
+      user: item 
+    })
+    wx.setNavigationBarTitle({
+      title: util.getValue(item, 'name', '他的主页')
     })
   },
 
@@ -26,7 +30,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+  
   },
 
   /**

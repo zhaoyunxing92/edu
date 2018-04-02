@@ -1,12 +1,13 @@
 <view class="course-detatils">
   <vui-video class='course-details-video' id="video" cover='{{course.cover}}' url="{{course.playUrl}}" />
   <view class="vui-menu">
-     <view bind:tap="clickItem" data-index="1" class="vui-menu-item-3 {{avtiveItem==1?'vui-menu-avtive':''}}">简介</view>
-     <view bind:tap="clickItem" data-index="2" class="vui-menu-item-3 {{avtiveItem==2?'vui-menu-avtive':''}}">评论
-     {{courseOpinions.length>0?courseOpinions.length:''}}
+     <view bind:tap="clickItem" data-index="1" class="vui-menu-item-3 {{avtiveItem==1?'vui-menu-avtive':''}}">
+     <i name='book'/></view>
+     <view bind:tap="clickItem" data-index="2" class="vui-menu-item-3 {{avtiveItem==2?'vui-menu-avtive':''}}">
+     <i name='info'/> {{courseOpinions.length>0?courseOpinions.length:''}}
      </view>
-     <view bind:tap="clickItem" data-index="3" class="vui-menu-item-3 {{avtiveItem==3?'vui-menu-avtive':''}}">课件
-      {{courseFiles.length>0?courseFiles.length:''}}
+     <view bind:tap="clickItem" data-index="3" class="vui-menu-item-3 {{avtiveItem==3?'vui-menu-avtive':''}}">
+     <i name='share'/>{{courseFiles.length>0?courseFiles.length:''}}   
      </view>
   </view>
   <!--课程内容区  -->
@@ -15,14 +16,14 @@
     <view hidden="{{avtiveItem!=1}}">
     
       <!--作者 -->
-      <card wx:if="{{course.author}}" class='course-author'>
+      <card wx:if="{{course.author}}" class='vui-user'>
         <view slot="title" class='vui-card-title'>
-          <image src='{{course.author.cover}}' class='course-author-cover' />
-          <text class='course-author-name'>
+          <image src='{{course.author.cover}}' class='vui-user-cover' />
+          <text class='vui-user-name'>
           {{course.author.name}}
           </text>
           <view slot="extra" class='vui-card-extra'>关注
-            <i name="add" />
+            <i name="following" />
           </view>
         </view>
       </card>
@@ -33,7 +34,7 @@
         <view slot="title" class="vui-menu course-stat">
           <!-- <view wx:for="{{['点赞','评论','收藏','分享']}}" wx:for-item="item" wx:key="{{index}}" class="vui-menu-item-4">{{item}}</view> -->
           <view class='vui-menu-item-4'>
-            <i name='like' />{{course.like}}
+            <i name='thumb' color="#f77000"/>{{course.like}}
           </view>
 
           <view class='vui-menu-item-4'>
@@ -41,7 +42,7 @@
           </view>
 
           <view class='vui-menu-item-4'>
-            <i name='collect' />{{course.collect}}
+            <i name='collect' color="#f77000"/>{{course.collect}}
           </view>
 
           <view class='vui-menu-item-4'>
@@ -57,14 +58,14 @@
     </view>
 
     <!--评论 -->
-    <view hidden="{{avtiveItem!=2}}" class='course-details-opinion'>
+    <view hidden="{{avtiveItem!=2}}" class='course-opinion'>
       <card wx:for="{{courseOpinions}}" wx:for-item="user" wx:key="{{user.id}}">
         <view slot="title" class='course-opinion-user'>
           <image class='course-opinion-user-cover' src='{{user.cover}}' />
           <text class='course-opinion-user-name'>{{user.name}}</text>
           <text class='course-opinion-user-time'>{{user.time}}</text>
           <view slot="extra" class='vui-card-extra'>
-            <i name="like" />{{user.likes}}</view>
+            <i name="thumb" color="{{index==1?'#f77000':''}}"/>{{user.likes}}</view>
         </view>
         <!--发言内容-->
         <view slot="content" class='course-opinion-content'>
@@ -78,10 +79,10 @@
     </view>
 
     <!-- 课件 -->
-    <view hidden="{{avtiveItem!=3}}">
-        <card wx:for="{{courseFiles}}" wx:for-item="file" wx:key="{{index}}">
+    <view hidden="{{avtiveItem!=3}}" class='course-file'>
+        <card class="course-file-item" wx:for="{{courseFiles}}" wx:for-item="file" wx:key="{{index}}">
         <view bind:tap="openFile" data-url="{{file.url}}" slot="title">
-          <text class='course-opinion-user-name'>{{file.name}}</text>
+          <text class='course-file-name'>{{file.name}}</text>
         </view>
       </card>
     </view>

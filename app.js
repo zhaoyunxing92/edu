@@ -50,7 +50,7 @@ App({
         "price": 0,
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "德清地税"
@@ -70,7 +70,7 @@ App({
         "price": 85.7,
         "tyep": 2,
         "name": "企业所得税汇算清缴培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "新昌地税"
@@ -91,7 +91,7 @@ App({
         "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -116,7 +116,7 @@ App({
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
         "summary": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "德清地税"
@@ -133,7 +133,7 @@ App({
         "tyep": 2,
         "name": "企业所得税汇算清缴培训",
         "summary": "企业所得税汇算清缴培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "新昌地税"
@@ -150,7 +150,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -167,7 +167,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -184,7 +184,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -201,7 +201,7 @@ App({
         "tyep": 2,
         "summary": "网上办税培训",
         "name": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -218,7 +218,7 @@ App({
         "tyep": 2,
         "summary": "网上办税培训",
         "name": "网上办税培训",
-        "org": {
+        "source": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -389,11 +389,26 @@ App({
         "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
       },
       {
-        "name": "RDS类数据库设计规范-征求稿V2",
+        "name": "RDS类数据库设计规范-征求稿V2.pdf",
         "url": "https://dingtax-edu.oss-cn-hangzhou.aliyuncs.com/test/RDS%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83-%E5%BE%81%E6%B1%82%E7%A8%BFV2.pdf"
       }, {
-        "name": "阿里巴巴Java开发手册（终极版）.pdf",
+        "name": "开发手册阿里巴巴Java开发手册阿里巴巴Java开发手册（终极版）.pdf",
         "url": "https://dingtax-edu.oss-cn-hangzhou.aliyuncs.com/test/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E7%BB%88%E6%9E%81%E7%89%88%EF%BC%89.pdf"
+      }, {
+        "name": "打开调试模式才能打开该文件.docx",
+        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
+      }, {
+        "name": "打开调试模式才能打开该文件.docx",
+        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
+      }, {
+        "name": "打开调试模式才能打开该文件.docx",
+        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
+      }, {
+        "name": "打开调试模式才能打开该文件.docx",
+        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
+      }, {
+        "name": "打开调试模式才能打开该文件.docx",
+        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
       }, {
         "name": "打开调试模式才能打开该文件.docx",
         "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"

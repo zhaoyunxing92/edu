@@ -67,6 +67,12 @@
 					"name": "推荐课程",
 					"pathName": "pages/nominate/nominate",
 					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "课程作者主页",
+					"pathName": "pages/user/user",
+					"query": "item={\"id\":1000,\"name\":\"sunny\",\"cover\":\"https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png\"}"
 				}
 			]
 		}

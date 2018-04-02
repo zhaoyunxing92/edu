@@ -59,27 +59,22 @@
 }
 
 /*组织  */
-
-/* .course-org, .course-stat, .course-title {
-  height: 33%;
-} */
-
-.course-org, .course-stat {
+.course-author, .course-stat {
   line-height: 90rpx;
   height: 80rpx;
 }
 
-/*组织名称  */
+/*课程来源名称 */
 
-.course-org-name {
+.course-author-name {
   color: #707070;
   font-size: 30rpx;
   margin-left: 10rpx;
 }
 
-/*组织logo  */
+/*课程来源logo  */
 
-.course-org-cover {
+.course-author-cover {
   height: 60rpx;
   width: 60rpx;
   border-radius: 30rpx;
