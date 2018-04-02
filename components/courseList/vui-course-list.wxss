@@ -70,6 +70,7 @@
   color: #707070;
   font-size: 30rpx;
   margin-left: 10rpx;
+  display: inline-block;
 }
 
 /*课程来源logo  */

@@ -5,6 +5,7 @@ page {
 /*文本内容容器*/
 .container{
   margin-bottom: 20rpx;
+  background-color: #fff
 }
 /*课程搜索 */
 .course-search {

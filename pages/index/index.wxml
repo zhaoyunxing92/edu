@@ -7,20 +7,30 @@
 </swiper>
 
 <view class='container'>
-<!--推荐课程  -->
-<card>
-   <view slot="title" class='vui-card-title'><i name="recommend" color="#29bafe"/>推荐课程
-   <view bindtap="_navigateTo" data-title="推荐课程" data-type="1" slot="extra" class='vui-card-extra'>更多<i name="more"/></view>
-   </view> 
-   <vui-course-list formPath='/pages/org/org' slot="content" courses="{{nominateList}}"/>
-</card>
+  <!--推荐课程  -->
 
-<!--热门课程  -->
-<card>
-   <view slot="title" class='vui-card-title'><i name="hot" color="red"/>热门课程
-   <view  bind:tap="_navigateTo" data-title="热门课程" data-type="2" slot="extra" class='vui-card-extra'>更多<i name="more"/></view>
-   </view> 
-   <vui-course-list formPath='/pages/org/org' slot="content" courses="{{hotList}}"/>
-</card>
+  <view class='index-card'>
+    <card>
+      <view slot="title" class='vui-card-title'>
+        <i name="recommend" color="#29bafe" />推荐课程
+        <view bindtap="_navigateTo" data-title="推荐课程" data-type="1" slot="extra" class='vui-card-extra'>更多
+          <i name="more" />
+        </view>
+      </view>
+      <vui-course-list formPath='/pages/org/org' slot="content" courses="{{nominateList}}" />
+    </card>
+  </view>
 
+  <!--热门课程  -->
+  <view class='index-card'>
+    <card>
+      <view slot="title" class='vui-card-title'>
+        <i name="hot" color="red" />热门课程
+        <view bind:tap="_navigateTo" data-title="热门课程" data-type="2" slot="extra" class='vui-card-extra'>更多
+          <i name="more" />
+        </view>
+      </view>
+      <vui-course-list formPath='/pages/org/org' slot="content" courses="{{hotList}}" />
+    </card>
+  </view>
 </view>

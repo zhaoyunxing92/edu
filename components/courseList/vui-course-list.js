@@ -8,6 +8,11 @@ Component({
     courses: {
       type: Array,
       value: []
+    },
+    //点击用户头像是否跳转
+    noSkip:{
+      type:Boolean,
+      value: false
     }
   },
   /**
@@ -18,9 +23,13 @@ Component({
     _navigateTo(env){
       let path = env.currentTarget.dataset.path;
       let item = env.currentTarget.dataset.item;
-      wx.navigateTo({
-        url: path + '?item=' + JSON.stringify(item)
-      })
+      let skip = env.currentTarget.dataset.skip;
+      if (skip){
+        wx.navigateTo({
+          url: path + '?item=' + JSON.stringify(item)
+        })
+      }
+     
     }
   }
 })
