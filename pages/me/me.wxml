@@ -6,7 +6,7 @@
         <text class='vui-user-name'>
           {{user.name}}
           </text>
-        <view slot="extra" class='vui-card-extra'>
+        <view slot="extra" class='vui-card-extra' bindtap='_navigateTo'>
         <i name="setting" color="#707070" size="50" /> 
         </view>
       </view>

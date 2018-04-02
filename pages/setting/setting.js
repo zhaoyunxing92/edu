@@ -1,22 +1,11 @@
-const app = getApp()
+// pages/setting/setting.js
 Page({
-  // 切换item
-  clickItem: function (env) {
-    let index = env.currentTarget.dataset.index;
-    this.setData({ avtiveItem: index });
-  }, 
-   //跳转设置界面
-  _navigateTo(env) {
-    
-    wx.navigateTo({
-      url: "/pages/setting/setting"
-    })
-  },
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    avtiveItem: 1,
-    user: [],
-    collect: [],
-    course: []
+  
   },
 
   /**
@@ -24,23 +13,15 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '我的'
+      title: '设置'
     })
-    
-    //课程列表
-    this.setData({
-      user: { id: 1000, name: "sunny", cover: "https://gitee.com/uploads/56/1167256_sunny9.png" },
-      collect: app.globalData.nominateList,
-      course: app.globalData.courseList,
-    })
-
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+  
   },
 
   /**

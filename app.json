@@ -8,7 +8,8 @@
     "pages/org/org",
     "pages/search/search",
     "pages/nominate/nominate",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/setting/setting"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
