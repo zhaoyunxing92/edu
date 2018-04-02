@@ -21,12 +21,12 @@ page {
   position: fixed;
   bottom: 15rpx;
   top: 475rpx;
-  width: 92%;
+  width: 96%;
   overflow-y: scroll;
-  left: 4%;
-  right: 4%;
+  left: 2%;
+  right: 2%;
   overflow-x: hidden;
-  padding: 15rpx 0 40rpx 0;
+  padding: 15rpx 15rpx;
   z-index: -10;
 }
 

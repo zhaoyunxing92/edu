@@ -13,7 +13,7 @@
   <!--课程内容区  -->
   <view class='course-content'>
     <!--简介  -->
-    <view hidden="{{avtiveItem!=1}}">
+    <view hidden="{{avtiveItem!=1}}" class='course-opinion'>
     
       <!--作者 -->
       <card wx:if="{{course.author}}" class='vui-user'>

@@ -94,7 +94,8 @@ background-color:#f5f5f5;
 /*发言模板  */
 
 .course-opinion {
-  margin-bottom: 55rpx;
+  width: 96%;
+  margin-bottom: 70rpx;
 }
 
 /*课程发言用户  */

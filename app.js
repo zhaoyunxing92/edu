@@ -50,11 +50,7 @@ App({
         "price": 0,
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-        "source": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "德清地税"
-        }, "author": {
+        "author": {
           "id": 1000,
           "name": "sunny",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -70,11 +66,6 @@ App({
         "price": 85.7,
         "tyep": 2,
         "name": "企业所得税汇算清缴培训",
-        "source": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "新昌地税"
-        },
         "author": {
           "id": 1000,
           "name": "sunny",
@@ -91,11 +82,7 @@ App({
         "price": 85.7,
         "tyep": 2,
         "name": "网上办税培训",
-        "source": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
-        }, "author": {
+         "author": {
           "id": 1000,
           "name": "sunny",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
@@ -116,7 +103,7 @@ App({
         "tyep": 2,
         "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
         "summary": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "德清地税"
@@ -133,7 +120,7 @@ App({
         "tyep": 2,
         "name": "企业所得税汇算清缴培训",
         "summary": "企业所得税汇算清缴培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "新昌地税"
@@ -150,7 +137,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -167,7 +154,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -184,7 +171,7 @@ App({
         "tyep": 2,
         "name": "网上办税培训",
         "summary": "网上办税培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -201,7 +188,7 @@ App({
         "tyep": 2,
         "summary": "网上办税培训",
         "name": "网上办税培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
@@ -218,7 +205,7 @@ App({
         "tyep": 2,
         "summary": "网上办税培训",
         "name": "网上办税培训",
-        "source": {
+        "author": {
           "id": "org_id",
           "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
           "name": "杭州地税"
