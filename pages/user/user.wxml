@@ -10,6 +10,9 @@
           <i name="following" />
         </view>
       </view>
+      <view slot="content" class='vui-user-intro'>
+          这里写用户的签名保持在50字内
+        </view>
     </card>
     <!--菜单  -->
     <view class="vui-menu">
