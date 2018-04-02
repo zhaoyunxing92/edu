@@ -76,6 +76,7 @@ Page({
         course: item
       })
     }
+    
     wx.setNavigationBarTitle({
       title: util.getValue(item, 'name', '播放课程')
     })

@@ -13,6 +13,7 @@ Page({
   },
   //事件处理函数
   goToPath: function(env) {
+   
     wx.navigateTo({
       url: '/pages/courseDetails/courseDetails?item=' + JSON.stringify(env.currentTarget.dataset.item)  
     })

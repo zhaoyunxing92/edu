@@ -39,9 +39,11 @@ App({
     // Info: null,
     // 推荐课程
     nominateList: [
+      
       {
         "id": 1001,
-        "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
+        "cover": "http://mvimg2.meitudata.com/5abf7d38dd1633882.jpg",
+        "playUrl":"http://mvvideo10.meitudata.com/5abdf80eef17c6493_H264_3.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -49,15 +51,17 @@ App({
         "like": 157,
         "price": 0,
         "tyep": 2,
-        "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
+        "name": "人鱼的眼泪史莱姆教程",
+        "summary":"人鱼的眼泪史莱姆教程，今天配音了，嗓子还是哑手还是胖不要建议😑我还是你们的小阔爱咩，炸评最多送转发@★XuFei~许菲★手作 @菲菲姐夫 @璐璐吖✨ @美拍小助手 #i like 美拍##手工##史莱姆#",
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       }, {
         "id": 1002,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg1.meitudata.com/5abded5954d057076.jpg",
+        "playUrl": "http://mvvideo10.meitudata.com/5abded59446e96967_H264_13.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -65,27 +69,29 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "name": "企业所得税汇算清缴培训",
+        "name": "You Are The Reason",
+        "summary": "晚安翻唱#我甘愿翻山越岭，穿过海洋，只为陪伴着你。歌曲：You Are The Reason - 原唱：Calum Scott）",
+        "author": {
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
+        }
+      }, {
+        "id": 1002,
+        "cover": "http://mvimg1.meitudata.com/5abdf8a14048a8887.jpg",
+        "browse": 3650,
+        "collect": 87,
+        "op": 7487,
+        "share": 9879,
+        "like": 157,
+        "price": 85.7,
+        "tyep": 2,
+        "name": "【🌊辰叔美拍】好久不见🤟🏾 更一个简短的牛头...",
+        "summary":"【🌊辰叔美拍】好久不见🤟🏾 更一个简短的牛头...",
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-        }
-      }, {
-        "id": 1003,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
-        "browse": 3650,
-        "collect": 87,
-        "op": 7487,
-        "share": 9879,
-        "like": 157,
-        "price": 85.7,
-        "tyep": 2,
-        "name": "网上办税培训",
-         "author": {
-          "id": 1000,
-          "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       }
     ],
@@ -93,7 +99,8 @@ App({
     courseList: [
       {
         "id": 1001,
-        "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
+        "cover": "http://mvimg11.meitudata.com/5abf6708db7b19559.jpg",
+        "playUrl":"http://mvvideo11.meitudata.com/5abf6708db7ea5754.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -101,16 +108,17 @@ App({
         "like": 157,
         "price": 0,
         "tyep": 2,
-        "name": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
-        "summary": "电子税务局网上操电子税务局网上操作电子税务局网上操作作电子税务局网上",
+        "name": "起喝优乐美的爱情",
+        "summary": "一起喝优乐美的爱情，你要不要？#飞碟神曲#《有奶茶，中国人就不会害怕世界末日》片尾曲，改编自#周杰伦#《我不配》#音乐#",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "德清地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
         "id": 1002,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg1.meitudata.com/5abded5954d057076.jpg",
+        "playUrl":"http://mvvideo10.meitudata.com/5abded59446e96967_H264_13.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -118,16 +126,17 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "name": "企业所得税汇算清缴培训",
-        "summary": "企业所得税汇算清缴培训",
+        "name": "You Are The Reason",
+        "summary": "晚安翻唱#我甘愿翻山越岭，穿过海洋，只为陪伴着你。歌曲：You Are The Reason - 原唱：Calum Scott）",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "新昌地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
         "id": 1003,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a9a9b8121b441409.jpg",
+        "playUrl":"http://mvvideo11.meitudata.com/5a9a9b80b7f603108_H264_13.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -135,16 +144,17 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "name": "网上办税培训",
-        "summary": "网上办税培训",
+        "name": "无知并身无",
+        "summary": "【科特KurtSchneider美拍】#晚安翻唱#我们年轻、无知并身无...",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
         "id": 1004,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg10.meitudata.com/5abe26fb65b474150.jpg",
+        "playUrl":"http://mvvideo10.meitudata.com/5abe27ac3ad862822.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -152,16 +162,17 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "name": "网上办税培训",
-        "summary": "网上办税培训",
+        "name": "MAMAMOO",
+        "summary": "【韩流音悦Tai美拍】#韩流新歌速递#마마무(MAMAMOO) ...",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
         "id": 1004,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg10.meitudata.com/5abf6a2eecd4b9159.jpg",
+        "playUrl":"http://mvvideo11.meitudata.com/5abf409ed68963024_H264_3.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -169,16 +180,17 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "name": "网上办税培训",
-        "summary": "网上办税培训",
+        "name": "提了个琴美拍",
+        "summary": "【提了个琴美拍】#音乐#HAVANA (Violin Cover by ...",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
         "id": 1004,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "cover": "http://mvimg11.meitudata.com/5ac0edf1ddc0b9473.jpg",
+        "playUrl":"http://mvvideo11.meitudata.com/5ac0ed7746b5b8217_H264_3.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -186,16 +198,17 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "summary": "网上办税培训",
-        "name": "网上办税培训",
+        "summary": "Tinashe",
+        "name": "Tinashe - Me So Bad (Official Video) ft. Ty Dolla $ign, French Montana ",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }, {
-        "id": 1004,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idHoVxwnADB5aJXzGCMisHBZ.jpg",
+        "id": 1002,
+        "cover": "http://mvimg11.meitudata.com/5a589c7fbe9f17604.jpg",
+        "playUrl": "http://mvvideo11.meitudata.com/5a589c54780d5578_H264_3.mp4",
         "browse": 3650,
         "collect": 87,
         "op": 7487,
@@ -203,23 +216,41 @@ App({
         "like": 157,
         "price": 85.7,
         "tyep": 2,
-        "summary": "网上办税培训",
-        "name": "网上办税培训",
+        "name": "You Are The Reason",
+        "summary": "晚安翻唱#我甘愿翻山越岭，穿过海洋，只为陪伴着你。歌曲：You Are The Reason - 原唱：Calum Scott）",
         "author": {
-          "id": "org_id",
-          "cover": "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png",
-          "name": "杭州地税"
+          "id": "user_id",
+          "name": "sunny",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
         }
       }
     ],
     //首页轮播图数据
-    swiperList: [
+    swiperList: [{
+      "id": 1002,
+      "cover": "http://mvimg1.meitudata.com/5abded5954d057076.jpg",
+      "playUrl": "http://mvvideo10.meitudata.com/5abded59446e96967_H264_13.mp4",
+      "browse": 3650,
+      "collect": 87,
+      "op": 7487,
+      "share": 9879,
+      "like": 157,
+      "price": 85.7,
+      "tyep": 2,
+      "name": "You Are The Reason",
+      "summary": "晚安翻唱#我甘愿翻山越岭，穿过海洋，只为陪伴着你。歌曲：You Are The Reason - 原唱：Calum Scott）",
+      "author": {
+        "id": "user_id",
+        "name": "sunny",
+        "cover": "https://gitee.com/uploads/56/1167256_sunny9.png"
+      }
+    },
       {
         "id": 10001,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "cover": "http://mvimg10.meitudata.com/5abdef97d617e8241.jpg",
+        "playUrl": "http://mvvideo10.meitudata.com/5abdef97ca4d91880_H264_13.mp4",
+        "name": "Alyson Stoner",
+        "summary": "Evolution of K-POP - 翻唱制作：Alyson Stoner ",
         "like": 1580,
         "collect": 587,
         "op": 87,
@@ -227,15 +258,15 @@ App({
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       },
       {
         "id": 10002,
-        "cover": "https://oss-edu-test.dingtax.cn/cover/id5po55Yk7nCtvYuts2gzsAe.jpg",
-        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "cover": "http://mvimg11.meitudata.com/5a8818e47fe779475.jpg",
+        "playUrl": "http://mvvideo10.meitudata.com/5a8818309202a409_H264_13.mp4",
+        "name": "Medicine",
+        "summary": "我知道没有你我也很坚强，你的离开不会让我伤心太久，我已经不在乎了，你不能再左右我的心了。（歌曲：Medicine - 原唱：Kelly Clarkson - 翻唱制作：KHS）",
         "like": 10,
         "collect": 87,
         "op": 7487,
@@ -243,31 +274,16 @@ App({
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       },
+      
       {
-        "id": 10003,
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
-        "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
-        "like": 8810,
-        "collect": 87,
-        "op": 7487,
-        "share": 9879,
-        "author": {
-          "id": 1000,
-          "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        }
-      },
-      {
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idJVBp7XSuJonvyTnsN6UWAC.png",
-        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "cover": "http://mvimg10.meitudata.com/5aaa6470d3b959174.jpg",
+        "playUrl": "http://mvvideo11.meitudata.com/5aaa6470c82e81959_H264_13.mp4",
         "id": 10005,
-        "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。。",
+        "name": "The Middle",
+        "summary": "亲爱的，你为何不愿意做出一点让步，做出一点牺牲，我快要被逼疯了",
         "like": 8810,
         "collect": 87,
         "op": 7487,
@@ -275,14 +291,14 @@ App({
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       }, {
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "playUrl": "http://v.dingtax.cn/df93b2fcbc3141ae8b5afb1ded5049f7/4974f2cda0294ab8b86ca5f2c1b5087e-S00000001-100000.m3u8",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
+        "playUrl": "http://mvvideo10.meitudata.com/5a4f7d70ef4f42024_H264_3.mp4",
         "id": 10004,
-        "name": "丁税宝宣传视频",
-        "summary": "《浙江国地税联合电子税务局》网上办税操作说明：新办企业用户注册、税务登记信息查询、申报缴款注意事项、纳税证明文书打印等。重点讲解网上办税系统的常用功能，解答纳税人相关问题，进一步提升网上办税效率。",
+        "name": "Madilyn Bailey",
+        "summary": "来自英国的两位抒情派歌手，你们喜欢他俩组合吗？（歌曲：ADELE vs SAM SMITH Mashup - 翻唱制作：Madilyn Bailey )",
         "like": 8810,
         "collect": 87,
         "op": 7487,
@@ -290,7 +306,7 @@ App({
         "author": {
           "id": 1000,
           "name": "sunny",
-          "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+          "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
         }
       }
     ],
@@ -299,16 +315,16 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束",
+        "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
+        "content": "视频不错",
         "likes": 8,
         "time": "2018.02.25"
       },
       {
         "id": "1",
         "name": "abpj2gdu",
-        "cover": "http://static.dingtalk.com/media/lADOpdce-M0CMM0C7A_748_560.jpg",
-        "content": "除了通过钉钉打开支付宝办税做12万申报，直接通过支付宝怎么打开？ 刚走神了[认真]",
+        "cover": "https://gitee.com/uploads/56/1167256_sunny9.png",
+        "content": "测试数据",
         "likes": 4,
         "time": "2018-02-06"
       },
@@ -316,7 +332,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -324,7 +340,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -332,7 +348,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -340,7 +356,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "我的兄弟姐妹流着泪默默祈祷，却无济于事。人们把自然水随便的用，大人洗完菜后一大盆还很干净的水就泼在地上，小孩在水里踩，把水放在杯子里，加点肥皂水吹泡泡，吹不了就倒掉重做，一直做好才行，浪费了多少水！",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -348,7 +364,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "我的兄弟姐妹流着泪默默祈祷，却无济于事。人们把自然水随便的用，大人洗完菜后一大盆还很干净的水就泼在地上，小孩在水里踩，把水放在杯子里，加点肥皂水吹泡泡，吹不了就倒掉重做，一直做好才行，浪费了多少水！",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -356,7 +372,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "水，是生命之源；水，是造福人类的；水，为人类无私奉献，你们却眼睁睁地看着水慢慢消失",
         "likes": 8,
         "time": "2018.02.25"
       },
@@ -364,7 +380,7 @@ App({
         "id": "1",
         "name": "sunny",
         "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
-        "content": "尊敬的纳税人，本次直播已经结束，明天即可开始点播。点播流程：打开钉钉-点击“工作”-选择“德清地税掌上办税服务厅”-点击“财税直播间”",
+        "content": "水到最后没有了，你们只能哭泣，我是最后一滴水，你们哭泣的泪水，请保护水源，不浪费。否则，连我这最后一滴水，也将消失在那茫茫的宇宙中。",
         "likes": 8,
         "time": "2018.02.25"
       }
