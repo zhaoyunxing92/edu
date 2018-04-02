@@ -1,4 +1,5 @@
 const util = require('../../utils/util.js')
+const app = getApp()
 Page({
 
   // 切换item
@@ -52,6 +53,8 @@ Page({
       }
       
     ],//动态
+    collect:[],
+    course:[]
   },
 
   /**
@@ -66,6 +69,11 @@ Page({
     })
     wx.setNavigationBarTitle({
       title: util.getValue(item, 'name', '他的主页')
+    })
+
+    this.setData({
+      collect: app.globalData.nominateList,
+      course: app.globalData.courseList,
     })
   },
 

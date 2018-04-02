@@ -9,12 +9,14 @@ page {
 
 .vui-menu {
   margin-top: 15rpx;
+  line-height: 80rpx;
+  height: 80rpx;
 }
 
 .container-top {
   position: fixed;
   top: 0;
-  height: 150px;
+  height: 150rpx;
 }
 /*简介*/
 .vui-user-intro{
@@ -26,7 +28,7 @@ page {
 }
 
 .container {
-  top: 130px;
+  top: 252rpx;
   bottom: 15rpx;
   position: absolute;
   overflow-y: scroll;
@@ -35,6 +37,7 @@ page {
   width:98%;
   left: 1%;
   right: 1%;
+  padding-top: 10rpx;
 }
 
 .course-opinion {

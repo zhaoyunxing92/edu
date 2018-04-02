@@ -17,7 +17,7 @@
           <i name="more" />
         </view>
       </view>
-      <vui-course-list formPath='/pages/org/org' slot="content" courses="{{nominateList}}" />
+      <vui-course-list slot="content" courses="{{nominateList}}" />
     </card>
   </view>
 
@@ -30,7 +30,7 @@
           <i name="more" />
         </view>
       </view>
-      <vui-course-list formPath='/pages/org/org' slot="content" courses="{{hotList}}" />
+      <vui-course-list slot="content" courses="{{hotList}}" />
     </card>
   </view>
 </view>
