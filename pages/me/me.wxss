@@ -1,12 +1,59 @@
-  page{
-    background-color: #fff; 
-  }
-  .user-container{
-    margin: 20rpx;
-    background-color: #fff;
-  }
-  .vui-menu{
-    margin-top:15rpx;
-    border-radius: 8rpx;
-    padding: 3rpx; 
-  }
+page {
+  background-color: #fff;
+}
+
+.user-container {
+  padding: 20rpx 0rpx;
+  background-color: #fff;
+}
+
+.vui-menu {
+  margin-top: 15rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+
+.container-top {
+  position: fixed;
+  top: 0;
+  height: 150rpx;
+}
+/*简介*/
+.vui-user-intro{
+  font-size: 25rpx;
+  color: #707070;
+  margin-top: 30rpx;
+  padding: 15rpx;
+  text-indent: 50rpx;
+}
+
+.container {
+  top: 252rpx;
+  bottom: 15rpx;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: -10;
+  width:98%;
+  left: 1%;
+  right: 1%;
+  padding-top: 10rpx;
+}
+
+.course-opinion {
+  margin-bottom: 0;
+}
+
+.vui-card-extra {
+  font-size: 25rpx;
+}
+
+.course-opinion-content {
+  margin: 0 30rpx;
+}
+
+/* 修改点击颜色 */
+
+.vui-menu-avtive {
+  color: #3c8dff !important;
+}

@@ -6,7 +6,10 @@ Page({
     this.setData({ avtiveItem: index });
   },
   data: {
+    avtiveItem: 1,
     user: [],
+    collect: [],
+    course: []
   },
 
   /**
@@ -16,10 +19,14 @@ Page({
     wx.setNavigationBarTitle({
       title: '我的'
     })
+    
     //课程列表
     this.setData({
-      user: { id: 1000, name: "sunny", cover: "https://oss-edu-prod.dingtax.cn/logo/idFPrHLsmt2ZLrre6fKacA8.png" }
+      user: { id: 1000, name: "sunny", cover: "https://gitee.com/uploads/56/1167256_sunny9.png" },
+      collect: app.globalData.nominateList,
+      course: app.globalData.courseList,
     })
+
   },
 
   /**
