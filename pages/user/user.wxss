@@ -1,11 +1,29 @@
-  page{
-    background-color: #fff; 
-  }
-  .user-container{
-    margin: 20rpx;
-    background-color: #fff;
-  }
-  .vui-menu{
-    margin-top:10rpx;
-    border-radius: 15rpx; 
-  }
+page {
+  background-color: #fff;
+}
+
+.user-container {
+  padding: 20rpx 0rpx;
+  background-color: #fff;
+  width: 100%;
+}
+
+.vui-menu {
+  margin-top: 7rpx;
+}
+
+.container-top {
+  position: fixed;
+  top: 0;
+  height: 100px;
+}
+
+.container {
+  top: 100px;
+  bottom: 15rpx;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  z-index: -10;
+  padding: 30rpx;
+}

@@ -6,7 +6,7 @@
     background-color: #fff;
   }
   .vui-menu{
-    margin-top:5rpx;
+    margin-top:15rpx;
     border-radius: 8rpx;
     padding: 3rpx; 
   }

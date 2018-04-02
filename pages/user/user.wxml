@@ -1,31 +1,37 @@
 <view class='user-container'>
-  <card wx:if="{{user}}" class='vui-user'>
-    <view slot="title" class='vui-card-title'>
-      <image src='{{user.cover}}' class='vui-user-cover' />
-      <text class='vui-user-name'>
+  <view class='container-top'>
+    <card wx:if="{{user}}" class='vui-user'>
+      <view slot="title" class='vui-card-title'>
+        <image src='{{user.cover}}' class='vui-user-cover' />
+        <text class='vui-user-name'>
           {{user.name}}
           </text>
-      <view slot="extra" class='vui-card-extra'>关注
-        <i name="following" />
+        <view slot="extra" class='vui-card-extra'>关注
+          <i name="following" />
+        </view>
+      </view>
+    </card>
+    <!--菜单  -->
+    <view class="vui-menu">
+      <view bind:tap="clickItem" data-index="1" class="vui-menu-item-5 {{avtiveItem==1?'vui-menu-avtive':''}}">
+        <i name="info" />动态
+      </view>
+      <view bind:tap="clickItem" data-index="2" class="vui-menu-item-5 {{avtiveItem==2?'vui-menu-avtive':''}}">
+        <i name="book" />课程
+      </view>
+      <view bind:tap="clickItem" data-index="3" class="vui-menu-item-5 {{avtiveItem==3?'vui-menu-avtive':''}}">
+        <i name="fans" color="red" />粉丝
+      </view>
+      <view bind:tap="clickItem" data-index="4" class="vui-menu-item-5 {{avtiveItem==4?'vui-menu-avtive':''}}">
+        <i name="collect" />收藏
+      </view>
+      <view bind:tap="clickItem" data-index="5" class="vui-menu-item-5 {{avtiveItem==5?'vui-menu-avtive':''}}">
+        <i name="following" />关注
       </view>
     </view>
-  </card>
-  <!--菜单  -->
-  <view class="vui-menu">
-    <view bind:tap="clickItem" data-index="1" class="vui-menu-item-5 {{avtiveItem==1?'vui-menu-avtive':''}}">
-      <i name="info" />动态
-    </view>
-    <view bind:tap="clickItem" data-index="2" class="vui-menu-item-5 {{avtiveItem==2?'vui-menu-avtive':''}}">
-      <i name="book" />课程
-    </view>
-    <view bind:tap="clickItem" data-index="3" class="vui-menu-item-5 {{avtiveItem==3?'vui-menu-avtive':''}}">
-      <i name="fans" color="red"/>粉丝
-    </view>
-    <view bind:tap="clickItem" data-index="4" class="vui-menu-item-5 {{avtiveItem==4?'vui-menu-avtive':''}}">
-      <i name="collect" />收藏
-    </view>
-    <view bind:tap="clickItem" data-index="5" class="vui-menu-item-5 {{avtiveItem==5?'vui-menu-avtive':''}}">
-      <i name="following" />关注
-    </view>
+  </view>
+  <!--容器模块  -->
+  <view class='container'>
+    <text>dsfgy</text>
   </view>
 </view>
