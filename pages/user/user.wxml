@@ -16,22 +16,59 @@
       <view bind:tap="clickItem" data-index="1" class="vui-menu-item-5 {{avtiveItem==1?'vui-menu-avtive':''}}">
         <i name="info" />动态
       </view>
+      
       <view bind:tap="clickItem" data-index="2" class="vui-menu-item-5 {{avtiveItem==2?'vui-menu-avtive':''}}">
-        <i name="book" />课程
-      </view>
-      <view bind:tap="clickItem" data-index="3" class="vui-menu-item-5 {{avtiveItem==3?'vui-menu-avtive':''}}">
         <i name="fans" color="red" />粉丝
       </view>
-      <view bind:tap="clickItem" data-index="4" class="vui-menu-item-5 {{avtiveItem==4?'vui-menu-avtive':''}}">
+      <view bind:tap="clickItem" data-index="3" class="vui-menu-item-5 {{avtiveItem==3?'vui-menu-avtive':''}}">
         <i name="collect" />收藏
       </view>
-      <view bind:tap="clickItem" data-index="5" class="vui-menu-item-5 {{avtiveItem==5?'vui-menu-avtive':''}}">
+      <view bind:tap="clickItem" data-index="4" class="vui-menu-item-5 {{avtiveItem==4?'vui-menu-avtive':''}}">
         <i name="following" />关注
+      </view>
+
+      <view bind:tap="clickItem" data-index="5" class="vui-menu-item-5 {{avtiveItem==5?'vui-menu-avtive':''}}">
+        <i name="book" />课程
       </view>
     </view>
   </view>
   <!--容器模块  -->
   <view class='container'>
-    <text>dsfgy</text>
+    <!--动态  -->
+    <view hidden="{{avtiveItem!=1}}" class='course-opinion'>
+       <card wx:for="{{infos}}" wx:for-item="info" wx:key="{{info.id}}">
+        <view slot="title" class='course-opinion-user'>
+          <image class='course-opinion-user-cover' src='{{user.cover}}' />
+          <text class='course-opinion-user-name'>{{user.name}}</text>
+          <view slot="extra" class='vui-card-extra'>
+           {{info.time}}
+           </view>
+        </view>
+        <!--发言内容-->
+        <view slot="content" class='course-opinion-content'>
+          {{info.msg}}
+        </view>
+      </card>
+    </view>
+    <!--课程  -->
+    <view hidden="{{avtiveItem!=2}}">
+      课程
+    </view>
+    <!--粉丝  -->
+    <view hidden="{{avtiveItem!=3}}">
+      粉丝
+    </view>
+
+
+    <!--收藏  -->
+    <view hidden="{{avtiveItem!=4}}">
+      收藏
+    </view>
+
+    <!--关注  -->
+    <view hidden="{{avtiveItem!=5}}">
+      关注
+    </view>
+
   </view>
 </view>

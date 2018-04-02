@@ -5,11 +5,10 @@ page {
 .user-container {
   padding: 20rpx 0rpx;
   background-color: #fff;
-  width: 100%;
 }
 
 .vui-menu {
-  margin-top: 7rpx;
+  margin-top: 15rpx;
 }
 
 .container-top {
@@ -19,11 +18,31 @@ page {
 }
 
 .container {
-  top: 100px;
+  top: 95px;
   bottom: 15rpx;
   position: absolute;
   overflow-y: scroll;
   overflow-x: hidden;
   z-index: -10;
-  padding: 30rpx;
+  padding: 20rpx;
+  width: 100%;
+}
+
+.course-opinion {
+  margin-bottom: 0;
+}
+
+.vui-card-extra {
+  font-size: 25rpx;
+  margin-right: 30rpx;
+}
+
+.course-opinion-content {
+  margin: 0 30rpx;
+}
+
+/* 修改点击颜色 */
+
+.vui-menu-avtive {
+  color: #3c8dff !important;
 }

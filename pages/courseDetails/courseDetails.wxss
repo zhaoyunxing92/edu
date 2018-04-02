@@ -79,52 +79,6 @@ page {
   margin: 0 0 15rpx 0;
 }
 
-/*发言模板  */
-
-.course-opinion {
-  margin-bottom: 55rpx;
-}
-
-/*课程发言用户  */
-
-.course-opinion-user {
-  height: 90rpx;
-  line-height: 90rpx;
-}
-
-/*发言用户头像  */
-
-.course-opinion-user-cover {
-  height: 80rpx;
-  width: 80rpx;
-  border-radius: 40rpx;
-  margin-top: 12rpx;
-  float: left;
-}
-
-/*发言用户作者  */
-
-.course-opinion-user-name {
-  color: #3c8dff;
-  display: inline-block;
-  margin: 0rpx 18rpx;
-}
-
-/*发言时间  */
-
-.course-opinion-user-time {
-  color: #999;
-  font-size: 28rpx;
-}
-
-/*发言内容  */
-
-.course-opinion-content {
-  font-size: 28rpx;
-  color: #707070;
-  margin-top: 15rpx;
-}
-
 /*发言按钮  */
 
 .course-opinion-btn {
