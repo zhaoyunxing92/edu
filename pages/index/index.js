@@ -78,7 +78,7 @@ Page({
    */
   onReady: function () {
     wx.setNavigationBarTitle({
-      title: "税小课"
+      title: "码小课"
     })
   },
   //跳转
