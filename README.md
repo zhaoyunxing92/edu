@@ -8,3 +8,12 @@
 - [x] 用户页面
 - [ ] 搜索页面
 
+## 效果图展示
+
+![首页](https://gitee.com/sunny9/resource/raw/master/wechat/home.png)
+
+![我的](https://gitee.com/sunny9/resource/raw/master/wechat/wechat-me.png)
+
+![课程列表](https://gitee.com/sunny9/resource/raw/master/wechat/course.png)
+
+![课程详情](https://gitee.com/sunny9/resource/raw/master/wechat/details.png)
