@@ -331,7 +331,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
@@ -339,7 +339,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
@@ -347,7 +347,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "曾经的我有很多兄弟姐妹，他们流入世界各地，为人类造福，可是快乐总是那么的短暂",
         "likes": 8,
         "time": "2018.02.25"
@@ -355,7 +355,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "我的兄弟姐妹流着泪默默祈祷，却无济于事。人们把自然水随便的用，大人洗完菜后一大盆还很干净的水就泼在地上，小孩在水里踩，把水放在杯子里，加点肥皂水吹泡泡，吹不了就倒掉重做，一直做好才行，浪费了多少水！",
         "likes": 8,
         "time": "2018.02.25"
@@ -363,7 +363,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "我的兄弟姐妹流着泪默默祈祷，却无济于事。人们把自然水随便的用，大人洗完菜后一大盆还很干净的水就泼在地上，小孩在水里踩，把水放在杯子里，加点肥皂水吹泡泡，吹不了就倒掉重做，一直做好才行，浪费了多少水！",
         "likes": 8,
         "time": "2018.02.25"
@@ -371,7 +371,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "水，是生命之源；水，是造福人类的；水，为人类无私奉献，你们却眼睁睁地看着水慢慢消失",
         "likes": 8,
         "time": "2018.02.25"
@@ -379,7 +379,7 @@ App({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": "水到最后没有了，你们只能哭泣，我是最后一滴水，你们哭泣的泪水，请保护水源，不浪费。否则，连我这最后一滴水，也将消失在那茫茫的宇宙中。",
         "likes": 8,
         "time": "2018.02.25"
@@ -389,38 +389,7 @@ App({
     courseFiles: [
       {
         "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      },
-      {
-        "name": "RDS类数据库设计规范-征求稿V2.pdf",
-        "url": "https://dingtax-edu.oss-cn-hangzhou.aliyuncs.com/test/RDS%E7%B1%BB%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83-%E5%BE%81%E6%B1%82%E7%A8%BFV2.pdf"
-      }, {
-        "name": "开发手册阿里巴巴Java开发手册阿里巴巴Java开发手册（终极版）.pdf",
-        "url": "https://dingtax-edu.oss-cn-hangzhou.aliyuncs.com/test/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E7%BB%88%E6%9E%81%E7%89%88%EF%BC%89.pdf"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
-      }, {
-        "name": "打开调试模式才能打开该文件.docx",
-        "url": "https://oss-edu-test.dingtax.cn/doc/idMkJUQxqCrx6rBtnrzkHUHo.docx"
+        "url": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg"
       }
     ]
   }

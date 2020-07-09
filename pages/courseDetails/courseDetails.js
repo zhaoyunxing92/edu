@@ -57,7 +57,7 @@ Page({
       {
         "id": "1",
         "name": "sunny",
-        "cover": "https://oss-edu-prod.dingtax.cn/cover/idMb7KmFmQtczTrN2yEVwK2C.jpg",
+        "cover": "http://mvimg11.meitudata.com/5a4f81c39fa589605.jpg",
         "content": msg,
         "likes": 0,
         "time": util.formatTime(new Date())
